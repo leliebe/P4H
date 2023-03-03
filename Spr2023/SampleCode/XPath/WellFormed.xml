@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<examples>
+    <ex>
+    <exTitle>A book</exTitle>
+    <exAuthor>Dr. Jones</exAuthor>
+        <exAbstract>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</exAbstract>
+    </ex>
+    <ex>
+        <exTitle>Second Book</exTitle>
+        <exAuthor>Dr. Robins</exAuthor>
+        <exAbstract>Vitae ultricies leo integer malesuada nunc. Eu non diam phasellus vestibulum lorem sed. Integer vitae justo eget magna fermentum iaculis. Enim sed faucibus turpis in eu. Morbi tincidunt ornare massa eget egestas purus viverra. Aliquam purus sit amet luctus venenatis lectus. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Urna molestie at elementum eu facilisis sed odio morbi. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Risus commodo viverra maecenas accumsan lacus. Integer malesuada nunc vel risus commodo. Tempor orci eu lobortis elementum. Vestibulum mattis ullamcorper velit sed. Varius vel pharetra vel turpis nunc eget lorem dolor sed. Amet risus nullam eget felis eget nunc lobortis mattis.</exAbstract>
+    </ex>
+</examples>
