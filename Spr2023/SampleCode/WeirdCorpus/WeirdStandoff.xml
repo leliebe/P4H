@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Weird Standoff</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Lauren Liebe, Center of Digital Humanities Research, Texas A&amp;M
+               University</publisher>
+            <availability>
+               <p>This is an open access work licensed under a Creative Commons Attribution 4.0
+                  International license.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Part of a learning corpus for XML-based projects</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <!--Note! Go back and add gender categories after next update-->
+  <text>
+      <body>
+         <listPerson>
+            <person xml:id="HPL_Cthu_Wilcox" role="character" sex="M">
+               <persName type="char">
+                  <forename>Henry Anthony</forename>
+                  <surname>Wilcox</surname>
+               </persName>
+               <persPronouns value="he"/>
+               <nationality>American</nationality>
+               <residence>Rhode Island</residence>
+               <occupation>sculptor</occupation>
+            </person>
+         </listPerson>
+         <listPlace>
+            <listPlace type="building">
+               <place xml:id="HPL_Cthu_Fleu">
+                  <desc type="canonical">a hideous Victorian imitation of Seventeenth Century Breton architecture which flaunts its stuccoed front amidst the lovely Colonial houses on the ancient hill, and under the very shadow of the finest Georgian steeple in America.</desc>
+                  <desc type="editorial">home of <persName ref="#HPL_Cthu_Wilcox">Wilcox</persName></desc>
+                  <placeName>Fleur-de-Lys Building</placeName>
+                  <location>
+                  <address>
+                     <addrLine>Thomas Street</addrLine>
+                  </address>
+                  </location>
+                  <country>United States</country>
+                  <region>New England</region>
+                  <settlement>Rhode Island</settlement>
+                  <listBibl>
+                     <bibl>
+                        <author>Lovecraft</author>, 
+                        <title>Call of Cthulhu</title>
+                     </bibl>
+                  </listBibl>
+               </place>
+            </listPlace>
+            <listPlace type="city">
+               <place></place>
+            </listPlace>
+            <listPlace type="continent">
+               <place></place>
+            </listPlace>
+            <listPlace type="country">
+               <place></place>
+            </listPlace>
+            <listPlace type="district">
+               <place></place>
+            </listPlace>
+            <listPlace type="fictional">
+               <place></place>
+            </listPlace>
+            <listPlace type="institution">
+               <place></place>
+            </listPlace>
+            <listPlace type="landmark">
+               <place></place>
+            </listPlace>
+            <listPlace type="mythic">
+               <place></place>
+            </listPlace>
+            <listPlace type="region">
+               <place></place>
+            </listPlace>
+            <listPlace type="state">
+               <place></place>
+            </listPlace>
+            <listPlace type="street">
+               <place></place>
+            </listPlace>
+         </listPlace>
+      </body>
+  </text>
+</TEI>
