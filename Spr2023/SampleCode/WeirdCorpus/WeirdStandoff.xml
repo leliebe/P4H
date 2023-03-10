@@ -62,7 +62,16 @@
                </place>
             </listPlace>
             <listPlace type="city">
-               <place></place>
+               <place>
+                  <placeName></placeName>
+                  <location></location>
+                  <country></country>
+                  <region></region>
+                  <settlement></settlement>
+                  <listBibl>
+                     <bibl></bibl>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="continent">
                <place></place>
