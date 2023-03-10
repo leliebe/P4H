@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xsl:stylesheet xmlns:oxy="http://www.oxygenxml.com/schematron/validation"
-   xmlns:saxon="http://saxon.sf.net/" xmlns:tei="http://www.tei-c.org/ns/1.0"
-   xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-   xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   version="2.0"
-   xml:base="file:/Users/leliebe/Documents/GitHub/P4H/Spr2023/SampleCode/WeirdCorpus/WeirdCorpus.odd_xslt_cascade">
-   <!--Implementers: please note that overriding process-prolog or process-root is 
+                xmlns:saxon="http://saxon.sf.net/"
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:xhtml="http://www.w3.org/1999/xhtml"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                version="2.0"
+                xml:base="file:/Users/leliebe/Documents/GitHub/P4H/Spr2023/SampleCode/WeirdCorpus/WeirdCorpus.odd_xslt_cascade"><!--Implementers: please note that overriding process-prolog or process-root is 
     the preferred method for meta-stylesheets to use where possible. -->
    <xsl:param name="archiveDirParameter"/>
    <xsl:param name="archiveNameParameter"/>
@@ -30,19 +32,18 @@
    <xsl:template match="*" mode="schematron-get-full-path">
       <xsl:variable name="sameUri">
          <xsl:value-of select="saxon:system-id() = parent::node()/saxon:system-id()"
-            use-when="function-available('saxon:system-id')"/>
+                       use-when="function-available('saxon:system-id')"/>
          <xsl:value-of select="oxy:system-id(.) = oxy:system-id(parent::node())"
-            use-when="not(function-available('saxon:system-id')) and function-available('oxy:system-id')"/>
+                       use-when="not(function-available('saxon:system-id')) and function-available('oxy:system-id')"/>
          <xsl:value-of select="true()"
-            use-when="not(function-available('saxon:system-id')) and not(function-available('oxy:system-id'))"
-         />
+                       use-when="not(function-available('saxon:system-id')) and not(function-available('oxy:system-id'))"/>
       </xsl:variable>
       <xsl:if test="$sameUri = 'true'">
          <xsl:apply-templates select="parent::*" mode="schematron-get-full-path"/>
       </xsl:if>
       <xsl:text>/</xsl:text>
       <xsl:choose>
-         <xsl:when test="namespace-uri() = ''">
+         <xsl:when test="namespace-uri()=''">
             <xsl:value-of select="name()"/>
          </xsl:when>
          <xsl:otherwise>
@@ -55,9 +56,9 @@
       </xsl:choose>
       <xsl:if test="$sameUri = 'true'">
          <xsl:variable name="preceding"
-            select="count(preceding-sibling::*[local-name() = local-name(current()) and namespace-uri() = namespace-uri(current())])"/>
+                       select="count(preceding-sibling::*[local-name()=local-name(current())       and namespace-uri() = namespace-uri(current())])"/>
          <xsl:text>[</xsl:text>
-         <xsl:value-of select="1 + $preceding"/>
+         <xsl:value-of select="1+ $preceding"/>
          <xsl:text>]</xsl:text>
       </xsl:if>
    </xsl:template>
@@ -65,7 +66,7 @@
       <xsl:apply-templates select="parent::*" mode="schematron-get-full-path"/>
       <xsl:text>/</xsl:text>
       <xsl:choose>
-         <xsl:when test="namespace-uri() = ''">@<xsl:value-of select="name()"/>
+         <xsl:when test="namespace-uri()=''">@<xsl:value-of select="name()"/>
          </xsl:when>
          <xsl:otherwise>
             <xsl:text>@*[local-name()='</xsl:text>
@@ -82,7 +83,7 @@
       <xsl:text>text()</xsl:text>
       <xsl:variable name="preceding" select="count(preceding-sibling::text())"/>
       <xsl:text>[</xsl:text>
-      <xsl:value-of select="1 + $preceding"/>
+      <xsl:value-of select="1+ $preceding"/>
       <xsl:text>]</xsl:text>
    </xsl:template>
    <xsl:template match="comment()" mode="schematron-get-full-path">
@@ -91,16 +92,17 @@
       <xsl:text>comment()</xsl:text>
       <xsl:variable name="preceding" select="count(preceding-sibling::comment())"/>
       <xsl:text>[</xsl:text>
-      <xsl:value-of select="1 + $preceding"/>
+      <xsl:value-of select="1+ $preceding"/>
       <xsl:text>]</xsl:text>
    </xsl:template>
    <xsl:template match="processing-instruction()" mode="schematron-get-full-path">
       <xsl:apply-templates select="parent::*" mode="schematron-get-full-path"/>
       <xsl:text>/</xsl:text>
       <xsl:text>processing-instruction()</xsl:text>
-      <xsl:variable name="preceding" select="count(preceding-sibling::processing-instruction())"/>
+      <xsl:variable name="preceding"
+                    select="count(preceding-sibling::processing-instruction())"/>
       <xsl:text>[</xsl:text>
-      <xsl:value-of select="1 + $preceding"/>
+      <xsl:value-of select="1+ $preceding"/>
       <xsl:text>]</xsl:text>
    </xsl:template>
    <!--MODE: SCHEMATRON-FULL-PATH-2-->
@@ -109,9 +111,9 @@
       <xsl:for-each select="ancestor-or-self::*">
          <xsl:text>/</xsl:text>
          <xsl:value-of select="name(.)"/>
-         <xsl:if test="preceding-sibling::*[name(.) = name(current())]">
+         <xsl:if test="preceding-sibling::*[name(.)=name(current())]">
             <xsl:text>[</xsl:text>
-            <xsl:value-of select="count(preceding-sibling::*[name(.) = name(current())]) + 1"/>
+            <xsl:value-of select="count(preceding-sibling::*[name(.)=name(current())])+1"/>
             <xsl:text>]</xsl:text>
          </xsl:if>
       </xsl:for-each>
@@ -128,7 +130,7 @@
          <xsl:value-of select="name(.)"/>
          <xsl:if test="parent::*">
             <xsl:text>[</xsl:text>
-            <xsl:value-of select="count(preceding-sibling::*[name(.) = name(current())]) + 1"/>
+            <xsl:value-of select="count(preceding-sibling::*[name(.)=name(current())])+1"/>
             <xsl:text>]</xsl:text>
          </xsl:if>
       </xsl:for-each>
@@ -140,17 +142,15 @@
    <xsl:template match="/" mode="generate-id-from-path"/>
    <xsl:template match="text()" mode="generate-id-from-path">
       <xsl:apply-templates select="parent::*" mode="generate-id-from-path"/>
-      <xsl:value-of select="concat('.text-', 1 + count(preceding-sibling::text()), '-')"/>
+      <xsl:value-of select="concat('.text-', 1+count(preceding-sibling::text()), '-')"/>
    </xsl:template>
    <xsl:template match="comment()" mode="generate-id-from-path">
       <xsl:apply-templates select="parent::*" mode="generate-id-from-path"/>
-      <xsl:value-of select="concat('.comment-', 1 + count(preceding-sibling::comment()), '-')"/>
+      <xsl:value-of select="concat('.comment-', 1+count(preceding-sibling::comment()), '-')"/>
    </xsl:template>
    <xsl:template match="processing-instruction()" mode="generate-id-from-path">
       <xsl:apply-templates select="parent::*" mode="generate-id-from-path"/>
-      <xsl:value-of
-         select="concat('.processing-instruction-', 1 + count(preceding-sibling::processing-instruction()), '-')"
-      />
+      <xsl:value-of select="concat('.processing-instruction-', 1+count(preceding-sibling::processing-instruction()), '-')"/>
    </xsl:template>
    <xsl:template match="@*" mode="generate-id-from-path">
       <xsl:apply-templates select="parent::*" mode="generate-id-from-path"/>
@@ -159,9 +159,7 @@
    <xsl:template match="*" mode="generate-id-from-path" priority="-0.5">
       <xsl:apply-templates select="parent::*" mode="generate-id-from-path"/>
       <xsl:text>.</xsl:text>
-      <xsl:value-of
-         select="concat('.', name(), '-', 1 + count(preceding-sibling::*[name() = name(current())]), '-')"
-      />
+      <xsl:value-of select="concat('.',name(),'-',1+count(preceding-sibling::*[name()=name(current())]),'-')"/>
    </xsl:template>
    <!--MODE: GENERATE-ID-2 -->
    <xsl:template match="/" mode="generate-id-2">U</xsl:template>
@@ -181,17 +179,19 @@
       <xsl:text>_</xsl:text>
       <xsl:value-of select="string-length(local-name(.))"/>
       <xsl:text>_</xsl:text>
-      <xsl:value-of select="translate(name(), ':', '.')"/>
+      <xsl:value-of select="translate(name(),':','.')"/>
    </xsl:template>
    <!--Strip characters-->
    <xsl:template match="text()" priority="-1"/>
    <!--SCHEMA SETUP-->
    <xsl:template match="/"/>
    <!--SCHEMATRON PATTERNS-->
-   <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:math="http://www.w3.org/1998/Math/MathML"
-      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-      xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
-      xmlns:svg="http://www.w3.org/2000/svg" xmlns:xi="http://www.w3.org/2001/XInclude">
+   <TEI xmlns="http://www.tei-c.org/ns/1.0"
+        xmlns:math="http://www.w3.org/1998/Math/MathML"
+        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+        xmlns:sqf="http://www.schematron-quickfix.com/validator/process"
+        xmlns:svg="http://www.w3.org/2000/svg"
+        xmlns:xi="http://www.w3.org/2001/XInclude">
       <teiHeader>
          <fileDesc>
             <titleStmt>
@@ -199,10 +199,10 @@
             </titleStmt>
             <publicationStmt>
                <publisher>Lauren Liebe, Center of Digital Humanities Research, Texas A&amp;M
-                  University</publisher>
+          University</publisher>
                <availability>
                   <p>This is an open access work licensed under a Creative Commons Attribution 4.0
-                     International license.</p>
+            International license.</p>
                </availability>
             </publicationStmt>
             <notesStmt>
@@ -218,7 +218,7 @@
             <schemaSpec ident="WeirdCorpusODD" start="TEI">
                <moduleRef key="header"/>
                <moduleRef key="core"
-                  exclude="analytic binaryObject del email measureGrp media meeting postBox postCode"/>
+                          exclude="analytic binaryObject del email measureGrp media meeting postBox postCode"/>
                <moduleRef key="tei"/>
                <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
                <moduleRef key="namesdates"/>
@@ -247,8 +247,7 @@
                            </valItem>
                            <valItem ident="hist">
                               <gloss>Historical</gloss>
-                              <desc>A nonfictional person referenced within the text, but not a
-                                 character within the text.</desc>
+                              <desc>A nonfictional person referenced within the text, but not a character within the text.</desc>
                            </valItem>
                         </valList>
                      </attDef>

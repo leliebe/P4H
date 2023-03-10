@@ -26,12 +26,10 @@
     <body>
       <schemaSpec ident="WeirdCorpusODD" start="TEI">
         <moduleRef key="header"/>
-        <moduleRef key="core"
-          exclude="analytic binaryObject del email measureGrp media meeting postBox postCode"/>
+        <moduleRef key="core" exclude="analytic binaryObject del email measureGrp media meeting postBox postCode"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
-        <moduleRef key="namesdates"/>
-        <!--add further limitations later, after personography is settled-->
+        <moduleRef key="namesdates"/> <!--add further limitations later, after personography is settled-->
         <moduleRef key="drama" include="epilogue prologue role set"/>
         <moduleRef key="figures" include="figure"/>
         <elementSpec module="namesdates" ident="persName" mode="change">
@@ -56,13 +54,12 @@
                 </valItem>
                 <valItem ident="hist">
                   <gloss>Historical</gloss>
-                  <desc>A nonfictional person referenced within the text, but not a character within
-                    the text.</desc>
+                  <desc>A nonfictional person referenced within the text, but not a character within the text.</desc>
                 </valItem>
               </valList>
             </attDef>
           </attList>
-        </elementSpec>
+        </elementSpec>   
         <elementSpec ident="place" module="namesdates" mode="change">
           <content>
             <sequence preserveOrder="true">
