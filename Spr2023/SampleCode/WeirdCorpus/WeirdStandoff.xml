@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -47,6 +49,16 @@
                <nationality>American</nationality>
                <residence>Providence, Rhode Island</residence>
                <occupation>Professor Emeritus of Semitic Languages</occupation>
+            </person>
+            <person xml:id="HPL_Cthu_Thurston" sex="M">
+               <persName>
+                  <forename>Francis Wayland</forename>
+                  <surname>Thurston</surname>
+               </persName>
+               <persPronouns value="he"/>
+               <nationality>American</nationality>
+               <residence>Boston, Massachusetts</residence>
+               <occupation></occupation>
             </person>
          </listPerson>
          <listPerson type="hist">
@@ -113,34 +125,125 @@
                </place>
             </listPlace>
             <listPlace type="continent">
-               <place/>
+               <place>
+               <placeName/>
+               <location/>
+               <country/>
+               <region/>
+               <settlement/>
+               <listBibl>
+                  <bibl/>
+               </listBibl>
+               </place>
             </listPlace>
             <listPlace type="country">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="district">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="fictional">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="institution">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="landmark">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="mythic">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="region">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="state">
-               <place/>
+               <desc>Used for the names of states and territories.</desc>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
             <listPlace type="street">
-               <place/>
+               <place>
+                  <placeName/>
+                  <location/>
+                  <country/>
+                  <region/>
+                  <settlement/>
+                  <listBibl>
+                     <bibl/>
+                  </listBibl>
+               </place>
             </listPlace>
          </listPlace>
       </body>

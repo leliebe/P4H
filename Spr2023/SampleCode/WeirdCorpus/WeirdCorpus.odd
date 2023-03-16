@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI 
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,7 +45,26 @@
               <textNode/>
             </alternate>
           </content>
-          <attList>
+          <constraintSpec ident="persNameType_Standoff" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:text/tei:body/tei:listPerson//tei:persName">
+                <sch:report test="@type">
+                  Type for &lt;persName&gt; is determined in &lt;listPerson&gt;. The @type attribute should not be included here.
+                </sch:report>
+              </sch:rule>
+            </constraint>
+          </constraintSpec> 
+          <constraintSpec ident="persNameType_Text" scheme="schematron">
+            <constraint>
+              <sch:rule context="//tei:text//tei:body//tei:p//tei:persName | //tei:text//tei:body//tei:l//tei:persName">
+                <sch:let name="persNameVal" value="'char', 'hist'"/>
+                <sch:assert test="@type = $persNameVal">
+                  Incorrect @type value for &lt;persName&gt;. Must be "char" (for fictional characters) or "hist" (for historical figures). 
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <!--<attList>
             <attDef ident="type" mode="change" usage="req">
               <datatype>
                 <dataRef key="teidata.enumerated"/>
@@ -61,7 +81,7 @@
                 </valItem>
               </valList>
             </attDef>
-          </attList>
+          </attList> -->
         </elementSpec>
         <elementSpec ident="place" module="namesdates" mode="change">
           <content>
@@ -75,6 +95,27 @@
               <elementRef key="listBibl"/>
             </sequence>
           </content>
+        </elementSpec>
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <constraintSpec ident="placeNameType_Standoff" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:text/tei:body/tei:listPerson//tei:placeName">
+                <sch:report test="@type">
+                  Type for &lt;placeName&gt; is determined in &lt;listPlace&gt;. The @type attribute should not be included here.
+                </sch:report>
+              </sch:rule>
+            </constraint>
+          </constraintSpec> 
+          <constraintSpec ident="placeNameType_Text" scheme="schematron">
+            <constraint>
+              <sch:rule context="//tei:text//tei:body//tei:p//tei:placeName | //tei:text//tei:body//tei:l//tei:placeName">
+                <sch:let name="placeNameVal" value="'building', 'city', 'continent', 'country', 'district', 'fictional', 'institution', 'landmark', 'mythic', 'region', 'state', 'street'"/>
+                <sch:assert test="@type = $placeNameVal">
+                  Incorrect @type value for &lt;placeName&gt;. Must be one of the following values: building, city, continent, country, district, fictional, institution, landmark, mythic, region, state, or street. 
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
         </elementSpec>
       </schemaSpec>
     </body>

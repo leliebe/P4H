@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
+
 <?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -37,7 +39,7 @@
       <front>
          <titlePage>
             <titlePart type="main">The CALL of CTHULHU</titlePart>
-            <docAuthor><persName type="hist">H. P. Lovecraft</persName></docAuthor>
+            <docAuthor><persName type="hist" ref="Lovecraft_HP">H. P. Lovecraft</persName></docAuthor>
             <epigraph>
                <p>"Of such great powers or beings there may be conceivably a survival ... a survival
                   of a hugely remote period when ... consciousness was manifested, perhaps, in
@@ -48,7 +50,7 @@
                   <bibl><persName type="hist" xml:id="Blackwood_Alg">Algernon Blackwood</persName></bibl>
                </cit>
             </epigraph>
-            <note type="canonical" n="1">Found among the papers of the late <persName type="char">Francis Wayland
+            <note type="canonical" n="1">Found among the papers of the late <persName type="char" ref="HPL_Cthu_Thurston">Francis Wayland
                Thurston</persName>, of <placeName type="city">Boston</placeName>.</note>
          </titlePage>
       </front>
@@ -75,10 +77,10 @@
                intended to keep silent regarding the part he knew, and that he would have destroyed
                his notes had not sudden death seized him.</p>
             <p>My knowledge of the thing began in the winter of 1926-27 with the death of my
-               grand-uncle, <persName type="char">George Gammell Angell</persName>, Professor
+               grand-uncle, <persName type="char" ref="HPL_Cthu_Angell">George Gammell Angell</persName>, Professor
                Emeritus of Semitic languages in <placeName type="institution">Brown
                   University</placeName>, <placeName type="city">Providence</placeName>, <placeName
-                  type="state">Rhode Island</placeName>. <persName type="char">Professor
+                     type="state">Rhode Island</placeName>. <persName type="char" ref="HPL_Cthu_Angell">Professor
                   Angell</persName> was widely known as an authority on ancient inscriptions, and
                had frequently been resorted to by the heads of prominent museums; so that his
                passing at the age of ninety-two may be recalled by many. Locally, interest was
@@ -125,7 +127,7 @@
                frightful. Behind the figure was a vague suggestion of a Cyclopean architectural
                background.</p>
             <p>The writing accompanying this oddity was, aside from a stack of press cuttings, in
-                  <persName type="char">Professor Angell</persName>'s most recent hand; and made no
+               <persName type="char" ref="HPL_Cthu_Angell">Professor Angell</persName>'s most recent hand; and made no
                pretense to literary style. What seemed to be the main document was headed "<hi
                   rend="italic">CTHULHU CULT</hi>" in characters painstakingly printed to avoid the
                erroneous reading of a word so unheard-of. This manuscript was divided into two
@@ -151,7 +153,7 @@
             <figure type="hr"/>
             <p>The first half of the principal manuscript told a very peculiar tale. It appears that
                on <date when="1925-03-01">March 1st, 1925</date>, a thin, dark young man of neurotic
-               and excited aspect had called upon <persName type="char">Professor Angell</persName>
+               and excited aspect had called upon <persName type="char" ref="HPL_Cthu_Angell">Professor Angell</persName>
                bearing the singular clay bas-relief, which was then exceedingly damp and fresh. His
                card bore the name of <persName type="char" ref="HPL_Cthu_Wilcox">Henry Anthony
                   Wilcox</persName>, and my uncle had recognized him as the youngest son of an
@@ -193,7 +195,7 @@
                unpronounceable jumble of letters, "<hi rend="italic"><foreign>Cthulhu
                      fhtagn</foreign><!--Note: figure out how to tag fictional languages--></hi>".</p>
             <p>This verbal jumble was the key to the recollection which excited and disturbed
-                  <persName type="char">Professor Angell</persName>. He questioned the sculptor with
+               <persName type="char" ref="HPL_Cthu_Angell">Professor Angell</persName>. He questioned the sculptor with
                scientific minuteness; and studied with almost frantic intensity the bas-relief on
                which the youth had found himself working, chilled and clad only in his nightclothes,
                when waking had stolen bewilderingly over him. My uncle blamed his old age, <persName
@@ -239,7 +241,7 @@
                sat upright in bed, astonished to find himself at home and completely ignorant of
                what had happened in dream or reality since the night of <date when="1925-03-22"
                   >March 22nd</date>. Pronounced well by his physician, he returned to his quarters
-               in three days; but to <persName type="char">Professor Angell</persName> he was of no
+               in three days; but to <persName type="char" ref="HPL_Cthu_Angell">Professor Angell</persName> he was of no
                further assistance. All traces of strange dreaming had vanished with his recovery,
                and my uncle kept no record of his night-thoughts after a week of pointless and
                irrelevant accounts of thoroughly usual visions.</p>
@@ -324,15 +326,14 @@
             <head>2. The Tale of Inspector Legrasse</head>
             <p>The older matters which had made the sculptor's dream and bas-relief so significant
                to my uncle formed the subject of the second half of his long manuscript. Once
-               before, it appears, <persName type="char">Professor Angell</persName> had seen the
+               before, it appears, <persName type="char" ref="HPL_Cthu_Angell">Professor Angell</persName> had seen the
                hellish outlines of the nameless monstrosity, puzzled over the unknown hieroglyphics,
                and heard the ominous syllables which can be rendered only as "<hi rend="italic"
                   >Cthulhu</hi>"; and all this in so stirring and horrible a connection that it is
                small wonder he pursued young <persName type="char" ref="HPL_Cthu_Wilcox"
                   >Wilcox</persName> with queries and demands for data.</p>
             <p>This earlier experience had come in 1908, seventeen years before, when the American
-               Archeological Society held its annual meeting in St. Louis. <persName type="char"
-                  >Professor Angell</persName>, as befitted one of his authority and attainments,
+               Archeological Society held its annual meeting in St. Louis. <persName type="char" ref="HPL_Cthu_Angell">Professor Angell</persName>, as befitted one of his authority and attainments,
                had had a prominent part in all the deliberations; and was one of the first to be
                approached by the several outsiders who took advantage of the convocation to offer
                questions for correct answering and problems for expert solution.</p>

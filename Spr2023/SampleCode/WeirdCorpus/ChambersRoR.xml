@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -48,20 +49,20 @@
                   la nôtre.... Voila toute la différence."</p>
             </epigraph>
             
-            <p>Toward the end of the year 1920 the Government of the United States had
+            <p>Toward the end of the year 1920 the Government of the <placeName type="country">United States</placeName> had
                practically completed the programme, adopted during the last months of
-               President Winthrop's administration. The country was apparently tranquil.
+               <persName type="char">President Winthrop</persName>'s administration. The country was apparently tranquil.
                Everybody knows how the Tariff and Labour questions were settled. The war
-               with Germany, incident on that country's seizure of the Samoan Islands,
+               with <placeName type="country">Germany</placeName>, incident on that country's seizure of the <placeName type="region">Samoan Islands</placeName>,
                had left no visible scars upon the republic, and the temporary occupation
-               of Norfolk by the invading army had been forgotten in the joy over
-               repeated naval victories, and the subsequent ridiculous plight of General
-               Von Gartenlaube's forces in the State of New Jersey. The Cuban and
-               Hawaiian investments had paid one hundred per cent and the territory of
-               Samoa was well worth its cost as a coaling station. The country was in a
+               of <placeName type="city">Norfolk</placeName> by the invading army had been forgotten in the joy over
+               repeated naval victories, and the subsequent ridiculous plight of <persName type="char">General
+               Von Gartenlaube</persName>'s forces in the <placeName type="country">State of New Jersey</placeName>. The <placeName type="country">Cuban</placeName> and
+               <placeName type="state">Hawaiian</placeName> investments had paid one hundred per cent and the territory of
+               <placeName type="state">Samoa</placeName> was well worth its cost as a coaling station. The country was in a
                superb state of defence. Every coast city had been well supplied with land
                fortifications; the army under the parental eye of the General Staff,
-               organized according to the Prussian system, had been increased to 300,000
+               organized according to the <orgName type="nationality">Prussian</orgName> system, had been increased to 300,000
                men, with a territorial reserve of a million; and six magnificent
                squadrons of cruisers and battle-ships patrolled the six stations of the
                navigable seas, leaving a steam reserve amply fitted to control home
@@ -69,10 +70,10 @@
                acknowledge that a college for the training of diplomats was as necessary
                as law schools are for the training of barristers; consequently we were no
                longer represented abroad by incompetent patriots. The nation was
-               prosperous; Chicago, for a moment paralyzed after a second great fire, had
+               prosperous; <placeName type="city">Chicago</placeName>, for a moment paralyzed after a second great fire, had
                risen from its ruins, white and imperial, and more beautiful than the white
                city which had been built for its plaything in 1893. Everywhere good
-               architecture was replacing bad, and even in New York, a sudden craving for
+               architecture was replacing bad, and even in <placeName type="city">New York</placeName>, a sudden craving for
                decency had swept away a great portion of the existing horrors. Streets
                had been widened, properly paved and lighted, trees had been planted,
                squares laid out, elevated structures demolished and underground roads
@@ -80,36 +81,36 @@
                bits of architecture, and the long system of stone quays which completely
                surrounded the island had been turned into parks which proved a god-send
                to the population. The subsidizing of the state theatre and state opera
-               brought its own reward. The United States National Academy of Design was
+               brought its own reward. The <placeName type="institution">United States National Academy of Design</placeName> was
                much like European institutions of the same kind. Nobody envied the
-               Secretary of Fine Arts, either his cabinet position or his portfolio. The
-               Secretary of Forestry and Game Preservation had a much easier time, thanks
-               to the new system of National Mounted Police. We had profited well by the
-               latest treaties with France and England; the exclusion of foreign-born
-               Jews as a measure of self-preservation, the settlement of the new
-               independent negro state of Suanee, the checking of immigration, the new
+               <persName type="char">Secretary of Fine Arts</persName>, either his cabinet position or his portfolio. The
+               <persName type="char">Secretary of Forestry and Game Preservation</persName> had a much easier time, thanks
+               to the new system of <orgName>National Mounted Police</orgName>. We had profited well by the
+               latest treaties with <placeName type="country">France</placeName> and <placeName type="country">England</placeName>; the exclusion of foreign-born
+               <orgName type="ethnicity">Jews</orgName> as a measure of self-preservation, the settlement of the new
+               independent negro state of <placeName type="fictional">Suanee</placeName>, the checking of immigration, the new
                laws concerning naturalization, and the gradual centralization of power in
                the executive all contributed to national calm and prosperity. When the
-               Government solved the Indian problem and squadrons of Indian cavalry
+               Government solved the <orgName type="ethnicity">Indian</orgName> problem and squadrons of <orgName type="ethnicity">Indian</orgName> cavalry
                scouts in native costume were substituted for the pitiable organizations
-               tacked on to the tail of skeletonized regiments by a former Secretary of
-               War, the nation drew a long sigh of relief. When, after the colossal
+               tacked on to the tail of skeletonized regiments by a former <persName type="char">Secretary of
+               War</persName>, the nation drew a long sigh of relief. When, after the colossal
                Congress of Religions, bigotry and intolerance were laid in their graves
                and kindness and charity began to draw warring sects together, many
                thought the millennium had arrived, at least in the new world which after
                all is a world by itself.</p>
-            <p>But self-preservation is the first law, and the United States had to look
-               on in helpless sorrow as Germany, Italy, Spain and Belgium writhed in the
-               throes of Anarchy, while Russia, watching from the Caucasus, stooped and
+            <p>But self-preservation is the first law, and the <placeName type="country">United States</placeName> had to look
+               on in helpless sorrow as <placeName type="country">Germany</placeName>, <placeName type="country">Italy</placeName>, <placeName type="country">Spain</placeName> and <placeName type="country">Belgium</placeName> writhed in the
+               throes of Anarchy, while <placeName type="country">Russia</placeName>, watching from the <placeName type="region">Caucasus</placeName>, stooped and
                bound them one by one.</p>
-            <p>In the city of New York the summer of 1899 was signalized by the
+            <p>In the city of <placeName type="city">New York</placeName> the summer of 1899 was signalized by the
                dismantling of the Elevated Railroads. The summer of 1900 will live in
-               the memories of New York people for many a cycle; the Dodge Statue was
+               the memories of <placeName type="city">New York</placeName> people for many a cycle; the <placeName type="landmark">Dodge Statue</placeName> was
                removed in that year. In the following winter began that agitation for
                the repeal of the laws prohibiting suicide which bore its final fruit in
                the month of April, 1920, when the first Government Lethal Chamber was
-               opened on Washington Square.</p>
-            <p>I had walked down that day from Dr. Archer's house on Madison Avenue,
+               opened on <placeName type="landmark">Washington Square</placeName>.</p>
+            <p>I had walked down that day from <persName type="char">Dr. Archer</persName>'s house on <placeName type="street">Madison Avenue</placeName>,
                where I had been as a mere formality. Ever since that fall from my horse,
                four years before, I had been troubled at times with pains in the back of
                my head and neck, but now for months they had been absent, and the doctor
@@ -118,8 +119,8 @@
                not grudge him the money. What I minded was the mistake which he made at
                first. When they picked me up from the pavement where I lay unconscious,
                and somebody had mercifully sent a bullet through my horse's head, I was
-               carried to Dr. Archer, and he, pronouncing my brain affected, placed me
-               in his private asylum where I was obliged to endure treatment for
+               carried to <persName type="char">Dr. Archer</persName>, and he, pronouncing my brain affected, placed me
+               in his <placeName type="institution">private asylum</placeName> where I was obliged to endure treatment for
                insanity. At last he decided that I was well, and I, knowing that my mind
                had always been as sound as his, if not sounder, "paid my tuition" as he
                jokingly called it, and left. I told him, smiling, that I would get even
@@ -131,8 +132,8 @@
                young man about town, I had become active, energetic, temperate, and
                above all--oh, above all else--ambitious. There was only one thing which
                troubled me, I laughed at my own uneasiness, and yet it troubled me.</p>
-            <p>During my convalescence I had bought and read for the first time, _The
-               King in Yellow_. I remember after finishing the first act that it
+            <p>During my convalescence I had bought and read for the first time, <hi rend="italic">The
+               King in Yellow</hi>. I remember after finishing the first act that it
                occurred to me that I had better stop. I started up and flung the book
                into the fireplace; the volume struck the barred grate and fell open on
                the hearth in the firelight. If I had not caught a glimpse of the opening
@@ -142,14 +143,14 @@
                nerve, I snatched the thing out of the coals and crept shaking to my
                bedroom, where I read it and reread it, and wept and laughed and trembled
                with a horror which at times assails me yet. This is the thing that
-               troubles me, for I cannot forget Carcosa where black stars hang in the
+               troubles me, for I cannot forget <placeName type="fictional">Carcosa</placeName> where black stars hang in the
                heavens; where the shadows of men's thoughts lengthen in the afternoon,
-               when the twin suns sink into the lake of Hali; and my mind will bear for
+               when the twin suns sink into the <placeName type="fictional">lake of Hali</placeName>; and my mind will bear for
                ever the memory of the Pallid Mask. I pray God will curse the writer, as
                the writer has cursed the world with this beautiful, stupendous creation,
                terrible in its simplicity, irresistible in its truth--a world which now
-               trembles before the King in Yellow. When the French Government seized the
-               translated copies which had just arrived in Paris, London, of course,
+               trembles before the <persName type="char">King in Yellow</persName>. When the French Government seized the
+               translated copies which had just arrived in <placeName type="city">Paris</placeName>, <placeName type="city">London</placeName>, of course,
                became eager to read it. It is well known how the book spread like an
                infectious disease, from city to city, from continent to continent,
                barred out here, confiscated there, denounced by Press and pulpit,
@@ -157,46 +158,46 @@
                principles had been violated in those wicked pages, no doctrine
                promulgated, no convictions outraged. It could not be judged by any known
                standard, yet, although it was acknowledged that the supreme note of art
-               had been struck in _The King in Yellow_, all felt that human nature
+               had been struck in <hi rend="italic"><bibl>The King in Yellow</bibl></hi>, all felt that human nature
                could not bear the strain, nor thrive on words in which the essence of
                purest poison lurked. The very banality and innocence of the first act
                only allowed the blow to fall afterward with more awful effect.</p>
-            <p>It was, I remember, the 13th day of April, 1920, that the first
-               Government Lethal Chamber was established on the south side of Washington
-               Square, between Wooster Street and South Fifth Avenue. The block which
+            <p>It was, I remember, the <date when="1920-04-13">13th day of April, 1920</date>, that the first
+               Government Lethal Chamber was established on the south side of <placeName type="landmark">Washington
+               Square</placeName>, between <placeName type="street">Wooster Street</placeName> and <placeName type="street">South Fifth Avenue</placeName>. The block which
                had formerly consisted of a lot of shabby old buildings, used as cafés
                and restaurants for foreigners, had been acquired by the Government in
-               the winter of 1898. The French and Italian cafés and restaurants were
+               the winter of <date when="1898">1898</date>. The <orgName type="nationality">French</orgName> and <orgName type="nationality">Italian</orgName> cafés and restaurants were
                torn down; the whole block was enclosed by a gilded iron railing, and
                converted into a lovely garden with lawns, flowers and fountains. In the
                centre of the garden stood a small, white building, severely classical in
                architecture, and surrounded by thickets of flowers. Six Ionic columns
                supported the roof, and the single door was of bronze. A splendid marble
-               group of the "Fates" stood before the door, the work of a young American
-               sculptor, Boris Yvain, who had died in Paris when only twenty-three years
+               group of the "Fates" stood before the door, the work of a young <orgName type="nationality">American</orgName>
+               sculptor, <persName type="char">Boris Yvain</persName>, who had died in <placeName type="city">Paris</placeName> when only twenty-three years
                old.</p>
-            <p>The inauguration ceremonies were in progress as I crossed University
-               Place and entered the square. I threaded my way through the silent throng
-               of spectators, but was stopped at Fourth Street by a cordon of police. A
-               regiment of United States lancers were drawn up in a hollow square round
-               the Lethal Chamber. On a raised tribune facing Washington Park stood the
-               Governor of New York, and behind him were grouped the Mayor of New
-               York and Brooklyn, the Inspector-General of Police, the Commandant of
-               the state troops, Colonel Livingston, military aid to the President of the
-               United States, General Blount, commanding at Governor's Island,
-               Major-General Hamilton, commanding the garrison of New York and Brooklyn,
-               Admiral Buffby of the fleet in the North River, Surgeon-General
-               Lanceford, the staff of the National Free Hospital, Senators Wyse and
-               Franklin of New York, and the Commissioner of Public Works. The tribune
+            <p>The inauguration ceremonies were in progress as I crossed <placeName type="street">University
+               Place</placeName> and entered the square. I threaded my way through the silent throng
+               of spectators, but was stopped at <placeName type="street">Fourth Street</placeName> by a cordon of police. A
+               regiment of <orgName type="nationality">United States</orgName> lancers were drawn up in a hollow square round
+               the Lethal Chamber. On a raised tribune facing <placeName type="landmark">Washington Park</placeName> stood the
+               <persName type="char">Governor of New York</persName>, and behind him were grouped the <persName type="char">Mayor of New
+               York and Brooklyn</persName>, the <persName type="char">Inspector-General of Police</persName>, the <persName type="char">Commandant of
+               the state troops</persName>, <persName type="char">Colonel Livingston</persName>, military aid to the <persName type="char">President of the
+               United States</persName>, <persName type="char">General Blount</persName>, commanding at <placeName type="district">Governor's Island</placeName>,
+               <persName type="char">Major-General Hamilton</persName>, commanding the garrison of <placeName type="city">New York</placeName> and <placeName type="city">Brooklyn</placeName>,
+               <persName type="char">Admiral Buffby</persName> of the fleet in the <placeName type="landmark">North River</placeName>, <persName type="char">Surgeon-General
+               Lanceford</persName>, the staff of the <placeName type="institution">National Free Hospital</placeName>, Senators <persName type="char">Wyse</persName> and
+               <persName type="char">Franklin</persName> of <placeName type="state">New York</placeName>, and the <persName type="char">Commissioner of Public Works</persName>. The tribune
                was surrounded by a squadron of hussars of the National Guard.</p>
-            <p>The Governor was finishing his reply to the short speech of the
-               Surgeon-General. I heard him say: "The laws prohibiting suicide and
+            <p>The <persName type="char">Governor</persName> was finishing his reply to the short speech of the
+               <persName type="char">Surgeon-General</persName>. I heard him say: "The laws prohibiting suicide and
                providing punishment for any attempt at self-destruction have been
                repealed. The Government has seen fit to acknowledge the right of man to
                end an existence which may have become intolerable to him, through
                physical suffering or mental despair. It is believed that the community
                will be benefited by the removal of such people from their midst. Since
-               the passage of this law, the number of suicides in the United States has
+               the passage of this law, the number of suicides in the <placeName type="country">United States</placeName> has
                not increased. Now the Government has determined to establish a Lethal
                Chamber in every city, town and village in the country, it remains to be
                seen whether or not that class of human creatures from whose desponding
@@ -206,37 +207,37 @@
                who can no longer bear the sorrows of this life. If death is welcome let
                him seek it there." Then quickly turning to the military aid of the
                President's household, he said, "I declare the Lethal Chamber open," and
-               again facing the vast crowd he cried in a clear voice: "Citizens of New
-               York and of the United States of America, through me the Government
+               again facing the vast crowd he cried in a clear voice: "Citizens of <placeName type="city">New
+               York </placeName>and of the <placeName type="country">United States of America</placeName>, through me the Government
                declares the Lethal Chamber to be open."</p>
             <p>The solemn hush was broken by a sharp cry of command, the squadron of
                hussars filed after the Governor's carriage, the lancers wheeled and
-               formed along Fifth Avenue to wait for the commandant of the garrison, and
+               formed along <placeName type="street">Fifth Avenue</placeName> to wait for the commandant of the garrison, and
                the mounted police followed them. I left the crowd to gape and stare at
-               the white marble Death Chamber, and, crossing South Fifth Avenue, walked
-               along the western side of that thoroughfare to Bleecker Street. Then I
+               the white marble Death Chamber, and, crossing <placeName type="street">South Fifth Avenue</placeName>, walked
+               along the western side of that thoroughfare to <placeName type="street">Bleecker Street</placeName>. Then I
                turned to the right and stopped before a dingy shop which bore the sign:</p>
             <p>HAWBERK, ARMOURER.</p>
-            <p>I glanced in at the doorway and saw Hawberk busy in his little shop at
+            <p>I glanced in at the doorway and saw <persName type="char">Hawberk</persName> busy in his little shop at
                the end of the hall. He looked up, and catching sight of me cried in his
-               deep, hearty voice, "Come in, Mr. Castaigne!" Constance, his daughter,
+               deep, hearty voice, "Come in, <persName type="char">Mr. Castaigne</persName>!" <persName type="char">Constance</persName>, his daughter,
                rose to meet me as I crossed the threshold, and held out her pretty
                hand, but I saw the blush of disappointment on her cheeks, and knew
-               that it was another Castaigne she had expected, my cousin Louis. I
+               that it was another Castaigne she had expected, my cousin <persName type="char">Louis</persName>. I
                smiled at her confusion and complimented her on the banner she was
-               embroidering from a coloured plate. Old Hawberk sat riveting the worn
+               embroidering from a coloured plate. Old <persName type="char">Hawberk</persName> sat riveting the worn
                greaves of some ancient suit of armour, and the ting! ting! ting! of his
                little hammer sounded pleasantly in the quaint shop. Presently he
                dropped his hammer, and fussed about for a moment with a tiny wrench.
                The soft clash of the mail sent a thrill of pleasure through me. I
                loved to hear the music of steel brushing against steel, the mellow
                shock of the mallet on thigh pieces, and the jingle of chain armour.
-               That was the only reason I went to see Hawberk. He had never interested
-               me personally, nor did Constance, except for the fact of her being in
-               love with Louis. This did occupy my attention, and sometimes even kept
+               That was the only reason I went to see <persName type="char">Hawberk</persName>. He had never interested
+               me personally, nor did <persName type="char">Constance</persName>, except for the fact of her being in
+               love with <persName type="char">Louis</persName>. This did occupy my attention, and sometimes even kept
                me awake at night. But I knew in my heart that all would come right,
                and that I should arrange their future as I expected to arrange that of
-               my kind doctor, John Archer. However, I should never have troubled
+               my kind doctor, <persName type="char">John Archer</persName>. However, I should never have troubled
                myself about visiting them just then, had it not been, as I say, that
                the music of the tinkling hammer had for me this strong fascination. I
                would sit for hours, listening and listening, and when a stray sunbeam
@@ -246,90 +247,90 @@
                old armourer cut off the ray of sunlight, then, still thrilling
                secretly, I leaned back and listened again to the sound of the
                polishing rag, swish! swish! rubbing rust from the rivets.</p>
-            <p>Constance worked with the embroidery over her knees, now and then pausing
+            <p><persName type="char">Constance</persName> worked with the embroidery over her knees, now and then pausing
                to examine more closely the pattern in the coloured plate from the
-               Metropolitan Museum.</p>
+               <placeName type="institution">Metropolitan Museum</placeName>.</p>
             <p>"Who is this for?" I asked.</p>
-            <p>Hawberk explained, that in addition to the treasures of armour in the
-               Metropolitan Museum of which he had been appointed armourer, he also
+            <p><persName type="char">Hawberk</persName> explained, that in addition to the treasures of armour in the
+               <placeName type="institution">Metropolitan Museum</placeName> of which he had been appointed armourer, he also
                had charge of several collections belonging to rich amateurs. This was the
                missing greave of a famous suit which a client of his had traced to a
-               little shop in Paris on the Quai d'Orsay. He, Hawberk, had negotiated for
+               little shop in <placeName type="city">Paris</placeName> on the <placeName type="landmark">Quai d'Orsay</placeName>. He, <persName type="char">Hawberk</persName>, had negotiated for
                and secured the greave, and now the suit was complete. He laid down his
-               hammer and read me the history of the suit, traced since 1450 from owner
-               to owner until it was acquired by Thomas Stainbridge. When his superb
-               collection was sold, this client of Hawberk's bought the suit, and since
+               hammer and read me the history of the suit, traced since <date when="1450">1450</date> from owner
+               to owner until it was acquired by <persName type="char">Thomas Stainbridge</persName>. When his superb
+               collection was sold, this client of <persName type="char">Hawberk</persName>'s bought the suit, and since
                then the search for the missing greave had been pushed until it was,
-               almost by accident, located in Paris.</p>
+               almost by accident, located in <placeName type="city">Paris</placeName>.</p>
             <p>"Did you continue the search so persistently without any certainty of the
                greave being still in existence?" I demanded.</p>
             <p>"Of course," he replied coolly.</p>
-            <p>Then for the first time I took a personal interest in Hawberk.</p>
+            <p>Then for the first time I took a personal interest in <persName type="char">Hawberk</persName>.</p>
             <p>"It was worth something to you," I ventured.</p>
             <p>"No," he replied, laughing, "my pleasure in finding it was my reward."</p>
             <p>"Have you no ambition to be rich?" I asked, smiling.</p>
             <p>"My one ambition is to be the best armourer in the world," he answered
                gravely.</p>
-            <p>Constance asked me if I had seen the ceremonies at the Lethal Chamber.
-               She herself had noticed cavalry passing up Broadway that morning, and had
+            <p><persName type="char">Constance</persName> asked me if I had seen the ceremonies at the Lethal Chamber.
+               She herself had noticed cavalry passing up <placeName type="street">Broadway</placeName> that morning, and had
                wished to see the inauguration, but her father wanted the banner
                finished, and she had stayed at his request.</p>
-            <p>"Did you see your cousin, Mr. Castaigne, there?" she asked, with the
+            <p>"Did you see your cousin, <persName type="char">Mr. Castaigne</persName>, there?" she asked, with the
                slightest tremor of her soft eyelashes.</p>
-            <p>"No," I replied carelessly. "Louis' regiment is manoeuvring out in
-               Westchester County." I rose and picked up my hat and cane.</p>
-            <p>"Are you going upstairs to see the lunatic again?" laughed old Hawberk.
-               If Hawberk knew how I loathe that word "lunatic," he would never use it
+            <p>"No," I replied carelessly. "<persName type="char">Louis</persName>' regiment is manoeuvring out in
+               <placeName type="region">Westchester County</placeName>." I rose and picked up my hat and cane.</p>
+            <p>"Are you going upstairs to see the lunatic again?" laughed old <persName type="char">Hawberk</persName>.
+               If <persName type="char">Hawberk</persName> knew how I loathe that word "lunatic," he would never use it
                in my presence. It rouses certain feelings within me which I do not care
                to explain. However, I answered him quietly: "I think I shall drop in and
-               see Mr. Wilde for a moment or two."</p>
-            <p>"Poor fellow," said Constance, with a shake of the head, "it must be hard
+               see <persName type="char">Mr. Wilde</persName> for a moment or two."</p>
+            <p>"Poor fellow," said <persName type="char">Constance</persName>, with a shake of the head, "it must be hard
                to live alone year after year poor, crippled and almost demented. It is
-               very good of you, Mr. Castaigne, to visit him as often as you do."</p>
-            <p>"I think he is vicious," observed Hawberk, beginning again with his
+               very good of you, <persName type="char">Mr. Castaigne</persName>, to visit him as often as you do."</p>
+            <p>"I think he is vicious," observed <persName type="char">Hawberk</persName>, beginning again with his
                hammer. I listened to the golden tinkle on the greave plates; when he had
                finished I replied:</p>
             <p>"No, he is not vicious, nor is he in the least demented. His mind is a
                wonder chamber, from which he can extract treasures that you and I would
                give years of our life to acquire."'</p>
-            <p>Hawberk laughed.</p>
+            <p><persName type="char">Hawberk</persName> laughed.</p>
             <p>I continued a little impatiently: "He knows history as no one else could
                know it. Nothing, however trivial, escapes his search, and his memory is
-               so absolute, so precise in details, that were it known in New York that
+               so absolute, so precise in details, that were it known in <placeName type="city">New York</placeName> that
                such a man existed, the people could not honour him enough."</p>
-            <p>"Nonsense," muttered Hawberk, searching on the floor for a fallen rivet.</p>
+            <p>"Nonsense," muttered <persName type="char">Hawberk</persName>, searching on the floor for a fallen rivet.</p>
             <p>"Is it nonsense," I asked, managing to suppress what I felt, "is it
                nonsense when he says that the tassets and cuissards of the enamelled
                suit of armour commonly known as the 'Prince's Emblazoned' can be found
                among a mass of rusty theatrical properties, broken stoves and
-               ragpicker's refuse in a garret in Pell Street?"</p>
-            <p>Hawberk's hammer fell to the ground, but he picked it up and asked, with
+               ragpicker's refuse in a garret in <placeName type="street">Pell Street</placeName>?"</p>
+            <p><persName type="char">Hawberk</persName>'s hammer fell to the ground, but he picked it up and asked, with
                a great deal of calm, how I knew that the tassets and left cuissard were
                missing from the "Prince's Emblazoned."</p>
-            <p>"I did not know until Mr. Wilde mentioned it to me the other day. He said
-               they were in the garret of 998 Pell Street."</p>
+            <p>"I did not know until <persName type="char">Mr. Wilde</persName> mentioned it to me the other day. He said
+               they were in the garret of <placeName type="building">998 Pell Street</placeName>."</p>
             <p>"Nonsense," he cried, but I noticed his hand trembling under his leathern
                apron.</p>
-            <p>"Is this nonsense too?" I asked pleasantly, "is it nonsense when Mr.
-               Wilde continually speaks of you as the Marquis of Avonshire and of Miss
-               Constance--"</p>
-            <p>I did not finish, for Constance had started to her feet with terror
-               written on every feature. Hawberk looked at me and slowly smoothed his
+            <p>"Is this nonsense too?" I asked pleasantly, "is it nonsense when <persName type="char">Mr.
+               Wilde</persName> continually speaks of you as the <persName type="char">Marquis of Avonshire</persName> and of Miss
+               <persName type="char">Constance</persName>--"</p>
+            <p>I did not finish, for <persName type="char">Constance</persName> had started to her feet with terror
+               written on every feature. <persName type="char">Hawberk</persName> looked at me and slowly smoothed his
                leathern apron.</p>
-            <p>"That is impossible," he observed, "Mr. Wilde may know a great many
+            <p>"That is impossible," he observed, "<persName type="char">Mr. Wilde</persName> may know a great many
                things--"</p>
             <p>"About armour, for instance, and the 'Prince's Emblazoned,'" I
                interposed, smiling.</p>
             <p>"Yes," he continued, slowly, "about armour also--may be--but he is wrong
-               in regard to the Marquis of Avonshire, who, as you know, killed his
-               wife's traducer years ago, and went to Australia where he did not long
+               in regard to the <persName type="char">Marquis of Avonshire</persName>, who, as you know, killed his
+               wife's traducer years ago, and went to <placeName type="country">Australia</placeName> where he did not long
                survive his wife."</p>
-            <p>"Mr. Wilde is wrong," murmured Constance. Her lips were blanched, but her
+            <p>"<persName type="char">Mr. Wilde</persName> is wrong," murmured <persName type="char">Constance</persName>. Her lips were blanched, but her
                voice was sweet and calm.</p>
-            <p>"Let us agree, if you please, that in this one circumstance Mr. Wilde is
+            <p>"Let us agree, if you please, that in this one circumstance <persName type="char">Mr. Wilde</persName> is
                wrong," I said.</p>
          </div>
-         <div type="chapter" n="2">
+         <div type="chapter" n="2"><!--continue pers/place markup here-->
             <head>II</head>
             <p>I climbed the three dilapidated flights of stairs, which I had so often
 climbed before, and knocked at a small door at the end of the corridor.
@@ -347,7 +348,7 @@ left hand, which was absolutely fingerless, but it seemed to cause him no
 inconvenience, and he was satisfied with his wax ears. He was very small,
 scarcely higher than a child of ten, but his arms were magnificently
 developed, and his thighs as thick as any athlete's. Still, the most
-remarkable thing about Mr. Wilde was that a man of his marvellous
+remarkable thing about <persName type="char">Mr. Wilde</persName> was that a man of his marvellous
 intelligence and knowledge should have such a head. It was flat and
 pointed, like the heads of many of those unfortunates whom people
 imprison in asylums for the weak-minded. Many called him insane, but I
@@ -357,15 +358,15 @@ cat and teasing her until she flew at his face like a demon, was
 certainly eccentric. I never could understand why he kept the creature,
 nor what pleasure he found in shutting himself up in his room with this
 surly, vicious beast. I remember once, glancing up from the manuscript I
-was studying by the light of some tallow dips, and seeing Mr. Wilde
+was studying by the light of some tallow dips, and seeing <persName type="char">Mr. Wilde</persName>
 squatting motionless on his high chair, his eyes fairly blazing with
 excitement, while the cat, which had risen from her place before the
 stove, came creeping across the floor right at him. Before I could move
 she flattened her belly to the ground, crouched, trembled, and sprang
 into his face. Howling and foaming they rolled over and over on the
 floor, scratching and clawing, until the cat screamed and fled under the
-cabinet, and Mr. Wilde turned over on his back, his limbs contracting and
-curling up like the legs of a dying spider. He _was_ eccentric.</p>
+cabinet, and <persName type="char">Mr. Wilde</persName> turned over on his back, his limbs contracting and
+curling up like the legs of a dying spider. He <hi rend="italic">was</hi>eccentric.</p>
 <p>Mr. Wilde had climbed into his high chair, and, after studying my face,
 picked up a dog's-eared ledger and opened it.</p>
 <p>"Henry B. Matthews," he read, "book-keeper with Whysot Whysot and
@@ -377,7 +378,7 @@ fingerless knuckles down the closely-written columns.</p>
 Reputation damaged in the Bowery. To be repaired as soon as possible.
 Retainer $100."</p>
 <p>He coughed and added, "Called, April 6th."</p>
-<p>"Then you are not in need of money, Mr. Wilde," I inquired.</p>
+<p>"Then you are not in need of money, <persName type="char">Mr. Wilde</persName>," I inquired.</p>
 <p>"Listen," he coughed again.</p>
 <p>"Mrs. C. Hamilton Chester, of Chester Park, New York City. Called April
 7th. Reputation damaged at Dieppe, France. To be repaired by October 1st
@@ -412,7 +413,7 @@ voice.</p>
 expression.</p>
 <p>"Who is it?" he inquired.</p>
 <p>"Mr. Steylette," was the answer.</p>
-<p>"Come to-morrow," replied Mr. Wilde.</p>
+<p>"Come to-morrow," replied <persName type="char">Mr. Wilde</persName>.</p>
 <p>"Impossible," began the other, but was silenced by a sort of bark from
 Mr. Wilde.</p>
 <p>"Come to-morrow," he repeated.</p>
@@ -424,7 +425,7 @@ daily."</p>
 <p>He drummed on the ledger with his fingerless hand adding: "I pay him very
 badly, but he thinks it a good bargain."</p>
 <p>"Arnold Steylette!" I repeated amazed.</p>
-<p>"Yes," said Mr. Wilde, with a self-satisfied cough.</p>
+<p>"Yes," said <persName type="char">Mr. Wilde</persName>, with a self-satisfied cough.</p>
 <p>The cat, which had entered the room as he spoke, hesitated, looked up at
 him and snarled. He climbed down from the chair and squatting on the
 floor, took the creature into his arms and caressed her. The cat ceased
@@ -435,13 +436,13 @@ manuscript entitled--</p>
 <p>"THE IMPERIAL DYNASTY OF AMERICA."</p>
 <p>One by one I studied the well-worn pages, worn only by my own handling,
 and although I knew all by heart, from the beginning, "When from Carcosa,
-the Hyades, Hastur, and Aldebaran," to "Castaigne, Louis de Calvados,
+the Hyades, Hastur, and Aldebaran," to "Castaigne, <persName type="char">Louis</persName> de Calvados,
 born December 19th, 1877," I read it with an eager, rapt attention,
 pausing to repeat parts of it aloud, and dwelling especially on "Hildred
 de Calvados, only son of Hildred Castaigne and Edythe Landes Castaigne,
 first in succession," etc., etc.</p>
-<p>When I finished, Mr. Wilde nodded and coughed.</p>
-<p>"Speaking of your legitimate ambition," he said, "how do Constance and
+<p>When I finished, <persName type="char">Mr. Wilde</persName> nodded and coughed.</p>
+<p>"Speaking of your legitimate ambition," he said, "how do <persName type="char">Constance</persName> and
 Louis get along?"</p>
 <p>"She loves him," I replied simply.</p>
 <p>The cat on his knee suddenly turned and struck at his eyes, and he flung
@@ -454,18 +455,18 @@ Louis."</p>
 ran over the leaves rapidly. "We are now in communication with ten
 thousand men," he muttered. "We can count on one hundred thousand within
 the first twenty-eight hours, and in forty-eight hours the state will
-rise _en masse_. The country follows the state, and the portion that
+rise <hi rend="italic">en masse</hi>. The country follows the state, and the portion that
 will not, I mean California and the Northwest, might better never have
 been inhabited. I shall not send them the Yellow Sign."</p>
 <p>The blood rushed to my head, but I only answered, "A new broom sweeps
 clean."</p>
 <p>"The ambition of Caesar and of Napoleon pales before that which could not
 rest until it had seized the minds of men and controlled even their
-unborn thoughts," said Mr. Wilde.</p>
+unborn thoughts," said <persName type="char">Mr. Wilde</persName>.</p>
 <p>"You are speaking of the King in Yellow," I groaned, with a shudder.</p>
 <p>"He is a king whom emperors have served."</p>
 <p>"I am content to serve him," I replied.</p>
-<p>Mr. Wilde sat rubbing his ears with his crippled hand. "Perhaps Constance
+<p>Mr. Wilde sat rubbing his ears with his crippled hand. "Perhaps <persName type="char">Constance</persName>
 does not love him," he suggested.</p>
 <p>I started to reply, but a sudden burst of military music from the street
 below drowned my voice. The twentieth dragoon regiment, formerly in
@@ -482,25 +483,25 @@ fluttered from their lance points. The troopers, who rode with the
 beautiful English seat, looked brown as berries from their bloodless
 campaign among the farms of Westchester, and the music of their sabres
 against the stirrups, and the jingle of spurs and carbines was delightful
-to me. I saw Louis riding with his squadron. He was as handsome an
-officer as I have ever seen. Mr. Wilde, who had mounted a chair by the
-window, saw him too, but said nothing. Louis turned and looked straight
-at Hawberk's shop as he passed, and I could see the flush on his brown
-cheeks. I think Constance must have been at the window. When the last
+to me. I saw <persName type="char">Louis</persName> riding with his squadron. He was as handsome an
+officer as I have ever seen. <persName type="char">Mr. Wilde</persName>, who had mounted a chair by the
+window, saw him too, but said nothing. <persName type="char">Louis</persName> turned and looked straight
+at <persName type="char">Hawberk</persName>'s shop as he passed, and I could see the flush on his brown
+cheeks. I think <persName type="char">Constance</persName> must have been at the window. When the last
 troopers had clattered by, and the last pennons vanished into South Fifth
-Avenue, Mr. Wilde clambered out of his chair and dragged the chest away
+Avenue, <persName type="char">Mr. Wilde</persName> clambered out of his chair and dragged the chest away
 from the door.</p>
-<p>"Yes," he said, "it is time that you saw your cousin Louis."</p>
+<p>"Yes," he said, "it is time that you saw your cousin <persName type="char">Louis</persName>."</p>
 <p>He unlocked the door and I picked up my hat and stick and stepped into
 the corridor. The stairs were dark. Groping about, I set my foot on
 something soft, which snarled and spit, and I aimed a murderous blow at
 the cat, but my cane shivered to splinters against the balustrade, and
-the beast scurried back into Mr. Wilde's room.</p>
-<p>Passing Hawberk's door again I saw him still at work on the armour, but
+the beast scurried back into <persName type="char">Mr. Wilde</persName>'s room.</p>
+<p>Passing <persName type="char">Hawberk</persName>'s door again I saw him still at work on the armour, but
 I did not stop, and stepping out into Bleecker Street, I followed it to
 Wooster, skirted the grounds of the Lethal Chamber, and crossing
 Washington Park went straight to my rooms in the Benedick. Here I lunched
-comfortably, read the _Herald_ and the _Meteor_, and finally went
+comfortably, read the <hi rend="italic">Herald</hi>and the <hi rend="italic">Meteor</hi>, and finally went
 to the steel safe in my bedroom and set the time combination. The
 three and three-quarter minutes which it is necessary to wait, while the
 time lock is opening, are to me golden moments. From the instant I set
@@ -558,7 +559,7 @@ arms of Fate.</p>
 <p>I put on my hat and went out into the park for a little walk before
 dinner. As I crossed the central driveway a group of officers passed, and
 one of them called out, "Hello, Hildred," and came back to shake hands
-with me. It was my cousin Louis, who stood smiling and tapping his
+with me. It was my cousin <persName type="char">Louis</persName>, who stood smiling and tapping his
 spurred heels with his riding-whip.</p>
 <p>"Just back from Westchester," he said; "been doing the bucolic; milk and
 curds, you know, dairy-maids in sunbonnets, who say 'haeow' and 'I don't
@@ -567,7 +568,7 @@ meal at Delmonico's. What's the news?"</p>
 <p>"There is none," I replied pleasantly. "I saw your regiment coming in this
 morning."</p>
 <p>"Did you? I didn't see you. Where were you?"</p>
-<p>"In Mr. Wilde's window."</p>
+<p>"In <persName type="char">Mr. Wilde</persName>'s window."</p>
 <p>"Oh, hell!" he began impatiently, "that man is stark mad! I don't
 understand why you--"</p>
 <p>He saw how annoyed I felt by this outburst, and begged my pardon.</p>
@@ -584,21 +585,21 @@ began; but I stopped him again.</p>
 insane."</p>
 <p>"Of course that--that's what I meant," he laughed.</p>
 <p>I disliked his laugh because I knew it was forced, but I nodded gaily and
-asked him where he was going. Louis looked after his brother officers who
+asked him where he was going. <persName type="char">Louis</persName> looked after his brother officers who
 had now almost reached Broadway.</p>
 <p>"We had intended to sample a Brunswick cocktail, but to tell you the
-truth I was anxious for an excuse to go and see Hawberk instead. Come
+truth I was anxious for an excuse to go and see <persName type="char">Hawberk</persName> instead. Come
 along, I'll make you my excuse."</p>
-<p>We found old Hawberk, neatly attired in a fresh spring suit, standing at
+<p>We found old <persName type="char">Hawberk</persName>, neatly attired in a fresh spring suit, standing at
 the door of his shop and sniffing the air.</p>
-<p>"I had just decided to take Constance for a little stroll before dinner,"
-he replied to the impetuous volley of questions from Louis. "We thought
+<p>"I had just decided to take <persName type="char">Constance</persName> for a little stroll before dinner,"
+he replied to the impetuous volley of questions from <persName type="char">Louis</persName>. "We thought
 of walking on the park terrace along the North River."</p>
-<p>At that moment Constance appeared and grew pale and rosy by turns as
+<p>At that moment <persName type="char">Constance</persName> appeared and grew pale and rosy by turns as
 Louis bent over her small gloved fingers. I tried to excuse myself,
-alleging an engagement uptown, but Louis and Constance would not listen,
-and I saw I was expected to remain and engage old Hawberk's attention.
-After all it would be just as well if I kept my eye on Louis, I thought,
+alleging an engagement uptown, but <persName type="char">Louis</persName> and <persName type="char">Constance</persName> would not listen,
+and I saw I was expected to remain and engage old <persName type="char">Hawberk</persName>'s attention.
+After all it would be just as well if I kept my eye on <persName type="char">Louis</persName>, I thought,
 and when they hailed a Spring Street horse-car, I got in after them and
 took my seat beside the armourer.</p>
 <p>The beautiful line of parks and granite terraces overlooking the wharves
@@ -610,9 +611,9 @@ Highlands opposite. Cafés and restaurants were scattered here and there
 among the trees, and twice a week military bands from the garrison played
 in the kiosques on the parapets.</p>
 <p>We sat down in the sunshine on the bench at the foot of the equestrian
-statue of General Sheridan. Constance tipped her sunshade to shield her
-eyes, and she and Louis began a murmuring conversation which was
-impossible to catch. Old Hawberk, leaning on his ivory headed cane,
+statue of General Sheridan. <persName type="char">Constance</persName> tipped her sunshade to shield her
+eyes, and she and <persName type="char">Louis</persName> began a murmuring conversation which was
+impossible to catch. Old <persName type="char">Hawberk</persName>, leaning on his ivory headed cane,
 lighted an excellent cigar, the mate to which I politely refused, and
 smiled at vacancy. The sun hung low above the Staten Island woods, and
 the bay was dyed with golden hues reflected from the sun-warmed sails of
@@ -626,24 +627,24 @@ churned the sunlight waters as far as the eye could reach. In calm
 contrast to the hurry of sailing vessel and steamer a silent fleet of
 white warships lay motionless in midstream.</p>
 <p>Constance's merry laugh aroused me from my reverie.</p>
-<p>"What _are_ you staring at?" she inquired.</p>
+<p>"What <hi rend="italic">are</hi>you staring at?" she inquired.</p>
 <p>"Nothing--the fleet," I smiled.</p>
-<p>Then Louis told us what the vessels were, pointing out each by its
+<p>Then <persName type="char">Louis</persName> told us what the vessels were, pointing out each by its
 relative position to the old Red Fort on Governor's Island.</p>
 <p>"That little cigar shaped thing is a torpedo boat," he explained; "there
-are four more lying close together. They are the _Tarpon_, the _Falcon_,
-the _Sea Fox_, and the _Octopus_. The gun-boats just above are the
-_Princeton_, the _Champlain_, the _Still Water_ and the _Erie_. Next to
-them lie the cruisers _Faragut_ and _Los Angeles_, and above them the
-battle ships _California_, and _Dakota_, and the _Washington_ which is
+are four more lying close together. They are the <hi rend="italic">Tarpon</hi>, the <hi rend="italic">Falcon</hi>,
+the <hi rend="italic">Sea Fox</hi>, and the <hi rend="italic">Octopus</hi>. The gun-boats just above are the
+ <hi rend="italic">Princeton</hi>, the <hi rend="italic">Champlain</hi>, the <hi rend="italic">Still Water</hi>and the <hi rend="italic">Erie</hi>. Next to
+them lie the cruisers <hi rend="italic">Faragut</hi>and <hi rend="italic">Los Angeles</hi>, and above them the
+battle ships <hi rend="italic">California</hi>, and <hi rend="italic">Dakota</hi>, and the <hi rend="italic">Washington</hi>which is
 the flag ship. Those two squatty looking chunks of metal which are
 anchored there off Castle William are the double turreted monitors
-_Terrible_ and _Magnificent_; behind them lies the ram, _Osceola_."</p>
+<hi rend="italic">Terrible</hi>and <hi rend="italic">Magnificent</hi>; behind them lies the ram, <hi rend="italic">Osceola</hi>."</p>
 <p>Constance looked at him with deep approval in her beautiful eyes. "What
 loads of things you know for a soldier," she said, and we all joined in
 the laugh which followed.</p>
-<p>Presently Louis rose with a nod to us and offered his arm to Constance,
-and they strolled away along the river wall. Hawberk watched them for a
+<p>Presently <persName type="char">Louis</persName> rose with a nod to us and offered his arm to <persName type="char">Constance</persName>,
+and they strolled away along the river wall. <persName type="char">Hawberk</persName> watched them for a
 moment and then turned to me.</p>
 <p>"Mr. Wilde was right," he said. "I have found the missing tassets and
 left cuissard of the 'Prince's Emblazoned,' in a vile old junk garret in
@@ -652,37 +653,37 @@ Pell Street."</p>
 <p>"Yes."</p>
 <p>"Mr. Wilde is a very intelligent man," I observed.</p>
 <p>"I want to give him the credit of this most important discovery,"
-continued Hawberk. "And I intend it shall be known that he is entitled
+continued <persName type="char">Hawberk</persName>. "And I intend it shall be known that he is entitled
 to the fame of it."</p>
 <p>"He won't thank you for that," I answered sharply; "please say nothing
 about it."</p>
-<p>"Do you know what it is worth?" said Hawberk.</p>
+<p>"Do you know what it is worth?" said <persName type="char">Hawberk</persName>.</p>
 <p>"No, fifty dollars, perhaps."</p>
 <p>"It is valued at five hundred, but the owner of the 'Prince's Emblazoned'
 will give two thousand dollars to the person who completes his suit; that
-reward also belongs to Mr. Wilde."</p>
+reward also belongs to <persName type="char">Mr. Wilde</persName>."</p>
 <p>"He doesn't want it! He refuses it!" I answered angrily. "What do you
-know about Mr. Wilde? He doesn't need the money. He is rich--or will
+know about <persName type="char">Mr. Wilde</persName>? He doesn't need the money. He is rich--or will
 be--richer than any living man except myself. What will we care for money
 then--what will we care, he and I, when--when--"</p>
-<p>"When what?" demanded Hawberk, astonished.</p>
+<p>"When what?" demanded <persName type="char">Hawberk</persName>, astonished.</p>
 <p>"You will see," I replied, on my guard again.</p>
 <p>He looked at me narrowly, much as Doctor Archer used to, and I knew he
 thought I was mentally unsound. Perhaps it was fortunate for him that he
 did not use the word lunatic just then.</p>
 <p>"No," I replied to his unspoken thought, "I am not mentally weak; my mind
-is as healthy as Mr. Wilde's. I do not care to explain just yet what I
+is as healthy as <persName type="char">Mr. Wilde</persName>'s. I do not care to explain just yet what I
 have on hand, but it is an investment which will pay more than mere gold,
 silver and precious stones. It will secure the happiness and prosperity
 of a continent--yes, a hemisphere!"</p>
-<p>"Oh," said Hawberk.</p>
+<p>"Oh," said <persName type="char">Hawberk</persName>.</p>
 <p>"And eventually," I continued more quietly, "it will secure the happiness
 of the whole world."</p>
 <p>"And incidentally your own happiness and prosperity as well as Mr.
 Wilde's?"</p>
 <p>"Exactly," I smiled. But I could have throttled him for taking that tone.</p>
 <p>He looked at me in silence for a while and then said very gently, "Why
-don't you give up your books and studies, Mr. Castaigne, and take a tramp
+don't you give up your books and studies, <persName type="char">Mr. Castaigne</persName>, and take a tramp
 among the mountains somewhere or other? You used to be fond of fishing.
 Take a cast or two at the trout in the Rangelys."</p>
 <p>"I don't care for fishing any more," I answered, without a shade of
@@ -692,7 +693,7 @@ shooting, riding--"</p>
 <p>"I have never cared to ride since my fall," I said quietly.</p>
 <p>"Ah, yes, your fall," he repeated, looking away from me.</p>
 <p>I thought this nonsense had gone far enough, so I brought the
-conversation back to Mr. Wilde; but he was scanning my face again in a
+conversation back to <persName type="char">Mr. Wilde</persName>; but he was scanning my face again in a
 manner highly offensive to me.</p>
 <p>"Mr. Wilde," he repeated, "do you know what he did this afternoon? He
 came downstairs and nailed a sign over the hall door next to mine; it
@@ -703,17 +704,17 @@ Third Bell.</p>
 <p>"Do you know what a Repairer of Reputations can be?"</p>
 <p>"I do," I replied, suppressing the rage within.</p>
 <p>"Oh," he said again.</p>
-<p>Louis and Constance came strolling by and stopped to ask if we would join
-them. Hawberk looked at his watch. At the same moment a puff of smoke
+<p>Louis and <persName type="char">Constance</persName> came strolling by and stopped to ask if we would join
+them. <persName type="char">Hawberk</persName> looked at his watch. At the same moment a puff of smoke
 shot from the casemates of Castle William, and the boom of the sunset gun
 rolled across the water and was re-echoed from the Highlands opposite.
 The flag came running down from the flag-pole, the bugles sounded on the
 white decks of the warships, and the first electric light sparkled out
 from the Jersey shore.</p>
-<p>As I turned into the city with Hawberk I heard Constance murmur something
-to Louis which I did not understand; but Louis whispered "My darling," in
-reply; and again, walking ahead with Hawberk through the square I heard a
-murmur of "sweetheart," and "my own Constance," and I knew the time had
+<p>As I turned into the city with <persName type="char">Hawberk</persName> I heard <persName type="char">Constance</persName> murmur something
+to <persName type="char">Louis</persName> which I did not understand; but <persName type="char">Louis</persName> whispered "My darling," in
+reply; and again, walking ahead with <persName type="char">Hawberk</persName> through the square I heard a
+murmur of "sweetheart," and "my own <persName type="char">Constance</persName>," and I knew the time had
 nearly arrived when I should speak of important matters with my cousin
 Louis.</p>
          </div>
@@ -745,7 +746,7 @@ did not heed it. It was only when I saw two faces in the mirror:--it was
 only when another face rose over my shoulder, and two other eyes met
 mine. I wheeled like a flash and seized a long knife from my
 dressing-table, and my cousin sprang back very pale, crying: "Hildred!
-for God's sake!" then as my hand fell, he said: "It is I, Louis, don't
+for God's sake!" then as my hand fell, he said: "It is I, <persName type="char">Louis</persName>, don't
 you know me?" I stood silent. I could not have spoken for my life. He
 walked up to me and took the knife from my hand.</p>
 <p>"What is all this?" he inquired, in a gentle voice. "Are you ill?"</p>
@@ -763,7 +764,7 @@ the safe shut the massive steel door. The alarm ceased its infernal din
 at once. He watched me curiously, but did not seem to notice the sudden
 ceasing of the alarm. He did, however, speak of the safe as a biscuit
 box. Fearing lest he might examine the combination I led the way into my
-study. Louis threw himself on the sofa and flicked at flies with his
+study. <persName type="char">Louis</persName> threw himself on the sofa and flicked at flies with his
 eternal riding-whip. He wore his fatigue uniform with the braided jacket
 and jaunty cap, and I noticed that his riding-boots were all splashed
 with red mud.</p>
@@ -784,14 +785,14 @@ thing but poring over those books up there on the mantelpiece."</p>
 <p>He glanced along the row of shelves. "Napoleon, Napoleon, Napoleon!" he
 read. "For heaven's sake, have you nothing but Napoleons there?"</p>
 <p>"I wish they were bound in gold," I said. "But wait, yes, there is
-another book, _The King in Yellow_." I looked him steadily in the
+another book, <hi rend="italic"><bibl>The King in Yellow</bibl></hi>." I looked him steadily in the
 eye.</p>
 <p>"Have you never read it?" I asked.</p>
 <p>"I? No, thank God! I don't want to be driven crazy."</p>
 <p>I saw he regretted his speech as soon as he had uttered it. There is only
 one word which I loathe more than I do lunatic and that word is crazy.
-But I controlled myself and asked him why he thought _The King in
-Yellow_ dangerous.</p>
+But I controlled myself and asked him why he thought <hi rend="italic">The King in
+Yellow</hi>dangerous.</p>
 <p>"Oh, I don't know," he said, hastily. "I only remember the excitement it
 created and the denunciations from pulpit and Press. I believe the author
 shot himself after bringing forth this monstrosity, didn't he?"</p>
@@ -809,7 +810,7 @@ never open its pages."</p>
 face.</p>
 <p>"Yes," he continued, smiling happily, "married to the sweetest girl on
 earth."</p>
-<p>"Constance Hawberk," I said mechanically.</p>
+<p>"Constance <persName type="char">Hawberk</persName>," I said mechanically.</p>
 <p>"How did you know?" he cried, astonished. "I didn't know it myself until
 that evening last April, when we strolled down to the embankment before
 dinner."</p>
@@ -818,11 +819,11 @@ dinner."</p>
 ordering our regiment to the Presidio, San Francisco. We leave at noon
 to-morrow. To-morrow," he repeated. "Just think, Hildred, to-morrow I
 shall be the happiest fellow that ever drew breath in this jolly world,
-for Constance will go with me."</p>
+for <persName type="char">Constance</persName> will go with me."</p>
 <p>I offered him my hand in congratulation, and he seized and shook it like
 the good-natured fool he was--or pretended to be.</p>
 <p>"I am going to get my squadron as a wedding present," he rattled on.
-"Captain and Mrs. Louis Castaigne, eh, Hildred?"</p>
+"Captain and Mrs. <persName type="char">Louis</persName> Castaigne, eh, Hildred?"</p>
 <p>Then he told me where it was to be and who were to be there, and made me
 promise to come and be best man. I set my teeth and listened to his
 boyish chatter without showing what I felt, but--</p>
@@ -839,17 +840,17 @@ him.</p>
 <p>"What in the name of--" he began, but checked himself and laughingly
 assented. I watched him go down the stairs and hurry away, his sabre
 banging at every stride. He turned into Bleecker Street, and I knew he
-was going to see Constance. I gave him ten minutes to disappear and then
+was going to see <persName type="char">Constance</persName>. I gave him ten minutes to disappear and then
 followed in his footsteps, taking with me the jewelled crown and the
 silken robe embroidered with the Yellow Sign. When I turned into Bleecker
 Street, and entered the doorway which bore the sign--</p>
 <p>MR. WILDE,
 REPAIRER OF REPUTATIONS.
 Third Bell.</p>
-<p>I saw old Hawberk moving about in his shop, and imagined I heard
+<p>I saw old <persName type="char">Hawberk</persName> moving about in his shop, and imagined I heard
 Constance's voice in the parlour; but I avoided them both and hurried up
-the trembling stairways to Mr. Wilde's apartment. I knocked and entered
-without ceremony. Mr. Wilde lay groaning on the floor, his face covered
+the trembling stairways to <persName type="char">Mr. Wilde</persName>'s apartment. I knocked and entered
+without ceremony. <persName type="char">Mr. Wilde</persName> lay groaning on the floor, his face covered
 with blood, his clothes torn to shreds. Drops of blood were scattered
 about over the carpet, which had also been ripped and frayed in the
 evidently recent struggle.</p>
@@ -859,7 +860,7 @@ will kill me yet."</p>
 <p>This was too much, so I went into the kitchen, and, seizing a hatchet
 from the pantry, started to find the infernal beast and settle her then
 and there. My search was fruitless, and after a while I gave it up and
-came back to find Mr. Wilde squatting on his high chair by the table. He
+came back to find <persName type="char">Mr. Wilde</persName> squatting on his high chair by the table. He
 had washed his face and changed his clothes. The great furrows which the
 cat's claws had ploughed up in his face he had filled with collodion, and
 a rag hid the wound in his throat. I told him I should kill the cat when
@@ -872,25 +873,25 @@ startling.</p>
 <p>"Do you think so?" he said, rubbing his mutilated ears.</p>
 <p>It was useless to argue with him, so I took down the manuscript entitled
 Imperial Dynasty of America, for the last time I should ever take it down
-in Mr. Wilde's study. I read it through, thrilling and trembling with
-pleasure. When I had finished Mr. Wilde took the manuscript and, turning
+in <persName type="char">Mr. Wilde</persName>'s study. I read it through, thrilling and trembling with
+pleasure. When I had finished <persName type="char">Mr. Wilde</persName> took the manuscript and, turning
 to the dark passage which leads from his study to his bed-chamber,
 called out in a loud voice, "Vance." Then for the first time, I noticed a
 man crouching there in the shadow. How I had overlooked him during my
 search for the cat, I cannot imagine.</p>
-<p>"Vance, come in," cried Mr. Wilde.</p>
+<p>"Vance, come in," cried <persName type="char">Mr. Wilde</persName>.</p>
 <p>The figure rose and crept towards us, and I shall never forget the face
 that he raised to mine, as the light from the window illuminated it.</p>
-<p>"Vance, this is Mr. Castaigne," said Mr. Wilde. Before he had finished
+<p>"Vance, this is <persName type="char">Mr. Castaigne</persName>," said <persName type="char">Mr. Wilde</persName>. Before he had finished
 speaking, the man threw himself on the ground before the table, crying
 and grasping, "Oh, God! Oh, my God! Help me! Forgive me! Oh, Mr.
 Castaigne, keep that man away. You cannot, you cannot mean it! You are
 different--save me! I am broken down--I was in a madhouse and now--when
 all was coming right--when I had forgotten the King--the King in Yellow
 and--but I shall go mad again--I shall go mad--"</p>
-<p>His voice died into a choking rattle, for Mr. Wilde had leapt on him and
+<p>His voice died into a choking rattle, for <persName type="char">Mr. Wilde</persName> had leapt on him and
 his right hand encircled the man's throat. When Vance fell in a heap on
-the floor, Mr. Wilde clambered nimbly into his chair again, and rubbing
+the floor, <persName type="char">Mr. Wilde</persName> clambered nimbly into his chair again, and rubbing
 his mangled ears with the stump of his hand, turned to me and asked me
 for the ledger. I reached it down from the shelf and he opened it. After
 a moment's searching among the beautifully written pages, he coughed
@@ -898,7 +899,7 @@ complacently, and pointed to the name Vance.</p>
 <p>"Vance," he read aloud, "Osgood Oswald Vance." At the sound of his name,
 the man on the floor raised his head and turned a convulsed face to Mr.
 Wilde. His eyes were injected with blood, his lips tumefied. "Called
-April 28th," continued Mr. Wilde. "Occupation, cashier in the Seaforth
+April 28th," continued <persName type="char">Mr. Wilde</persName>. "Occupation, cashier in the Seaforth
 National Bank; has served a term of forgery at Sing Sing, from whence he
 was transferred to the Asylum for the Criminal Insane. Pardoned by the
 Governor of New York, and discharged from the Asylum, January 19, 1918.
@@ -908,15 +909,15 @@ income. Reputation to be repaired at once. Retainer $1,500.</p>
 excellent family, and secured present position through uncle's influence.
 Father, President of Seaforth Bank."</p>
 <p>I looked at the man on the floor.</p>
-<p>"Get up, Vance," said Mr. Wilde in a gentle voice. Vance rose as if
-hypnotized. "He will do as we suggest now," observed Mr. Wilde, and
+<p>"Get up, Vance," said <persName type="char">Mr. Wilde</persName> in a gentle voice. Vance rose as if
+hypnotized. "He will do as we suggest now," observed <persName type="char">Mr. Wilde</persName>, and
 opening the manuscript, he read the entire history of the Imperial
 Dynasty of America. Then in a kind and soothing murmur he ran over the
 important points with Vance, who stood like one stunned. His eyes were so
 blank and vacant that I imagined he had become half-witted, and remarked
-it to Mr. Wilde who replied that it was of no consequence anyway. Very
+it to <persName type="char">Mr. Wilde</persName> who replied that it was of no consequence anyway. Very
 patiently we pointed out to Vance what his share in the affair would be,
-and he seemed to understand after a while. Mr. Wilde explained the
+and he seemed to understand after a while. <persName type="char">Mr. Wilde</persName> explained the
 manuscript, using several volumes on Heraldry, to substantiate the result
 of his researches. He mentioned the establishment of the Dynasty in
 Carcosa, the lakes which connected Hastur, Aldebaran and the mystery of
@@ -930,35 +931,35 @@ began the wonderful story of the Last King. Fascinated and thrilled I
 watched him. He threw up his head, his long arms were stretched out in a
 magnificent gesture of pride and power, and his eyes blazed deep in their
 sockets like two emeralds. Vance listened stupefied. As for me, when at
-last Mr. Wilde had finished, and pointing to me, cried, "The cousin of
+last <persName type="char">Mr. Wilde</persName> had finished, and pointing to me, cried, "The cousin of
 the King!" my head swam with excitement.</p>
 <p>Controlling myself with a superhuman effort, I explained to Vance why I
 alone was worthy of the crown and why my cousin must be exiled or die.
 I made him understand that my cousin must never marry, even after
 renouncing all his claims, and how that least of all he should marry the
 daughter of the Marquis of Avonshire and bring England into the question.
-I showed him a list of thousands of names which Mr. Wilde had drawn up;
+I showed him a list of thousands of names which <persName type="char">Mr. Wilde</persName> had drawn up;
 every man whose name was there had received the Yellow Sign which no
 living human being dared disregard. The city, the state, the whole land,
 were ready to rise and tremble before the Pallid Mask.</p>
 <p>The time had come, the people should know the son of Hastur, and the
 whole world bow to the black stars which hang in the sky over Carcosa.</p>
-<p>Vance leaned on the table, his head buried in his hands. Mr. Wilde drew
-a rough sketch on the margin of yesterday's _Herald_ with a bit of
-lead pencil. It was a plan of Hawberk's rooms. Then he wrote out the
+<p>Vance leaned on the table, his head buried in his hands. <persName type="char">Mr. Wilde</persName> drew
+a rough sketch on the margin of yesterday's <hi rend="italic">Herald</hi>with a bit of
+lead pencil. It was a plan of <persName type="char">Hawberk</persName>'s rooms. Then he wrote out the
 order and affixed the seal, and shaking like a palsied man I signed my
 first writ of execution with my name Hildred-Rex.</p>
 <p>Mr. Wilde clambered to the floor and unlocking the cabinet, took a long
 square box from the first shelf. This he brought to the table and opened.
 A new knife lay in the tissue paper inside and I picked it up and handed
-it to Vance, along with the order and the plan of Hawberk's apartment.
-Then Mr. Wilde told Vance he could go; and he went, shambling like an
+it to Vance, along with the order and the plan of <persName type="char">Hawberk</persName>'s apartment.
+Then <persName type="char">Mr. Wilde</persName> told Vance he could go; and he went, shambling like an
 outcast of the slums.</p>
 <p>I sat for a while watching the daylight fade behind the square tower of
 the Judson Memorial Church, and finally, gathering up the manuscript and
 notes, took my hat and started for the door.</p>
 <p>Mr. Wilde watched me in silence. When I had stepped into the hall I
-looked back. Mr. Wilde's small eyes were still fixed on me. Behind him,
+looked back. <persName type="char">Mr. Wilde</persName>'s small eyes were still fixed on me. Behind him,
 the shadows gathered in the fading light. Then I closed the door behind
 me and went out into the darkening streets.</p>
 <p>I had eaten nothing since breakfast, but I was not hungry. A wretched,
@@ -976,10 +977,10 @@ square; I wandered from the Marble Arch to the artillery stables and back
 again to the lotos fountain. The flowers and grass exhaled a fragrance
 which troubled me. The jet of the fountain played in the moonlight, and
 the musical splash of falling drops reminded me of the tinkle of chained
-mail in Hawberk's shop. But it was not so fascinating, and the dull
+mail in <persName type="char">Hawberk</persName>'s shop. But it was not so fascinating, and the dull
 sparkle of the moonlight on the water brought no such sensations of
 exquisite pleasure, as when the sunshine played over the polished steel
-of a corselet on Hawberk's knee. I watched the bats darting and turning
+of a corselet on <persName type="char">Hawberk</persName>'s knee. I watched the bats darting and turning
 above the water plants in the fountain basin, but their rapid, jerky
 flight set my nerves on edge, and I went away again to walk aimlessly to
 and fro among the trees.</p>
@@ -1008,7 +1009,7 @@ the Benedick apartment house.</p>
 <p>"Is that you, Hildred?"</p>
 <p>"Yes, you are on time."</p>
 <p>I took his offered hand, and we strolled toward the Lethal Chamber.</p>
-<p>He rattled on about his wedding and the graces of Constance, and their
+<p>He rattled on about his wedding and the graces of <persName type="char">Constance</persName>, and their
 future prospects, calling my attention to his captain's shoulder-straps,
 and the triple gold arabesque on his sleeve and fatigue cap. I believe I
 listened as much to the music of his spurs and sabre as I did to his
@@ -1037,7 +1038,7 @@ when in the closely written pages he came to his own name, and when he
 came to mine he lowered the paper, and looked sharply at me for a moment
 But he kept his word, and resumed his reading, and I let the half-formed
 question die on his lips unanswered. When he came to the end and read the
-signature of Mr. Wilde, he folded the paper carefully and returned it to
+signature of <persName type="char">Mr. Wilde</persName>, he folded the paper carefully and returned it to
 me. I handed him the notes, and he settled back, pushing his fatigue cap
 up to his forehead, with a boyish gesture, which I remembered so well in
 school. I watched his face as he read, and when he finished I took the
@@ -1046,7 +1047,7 @@ a scroll marked with the Yellow Sign. He saw the sign, but he did not
 seem to recognize it, and I called his attention to it somewhat sharply.</p>
 <p>"Well," he said, "I see it. What is it?"</p>
 <p>"It is the Yellow Sign," I said angrily.</p>
-<p>"Oh, that's it, is it?" said Louis, in that flattering voice, which
+<p>"Oh, that's it, is it?" said <persName type="char">Louis</persName>, in that flattering voice, which
 Doctor Archer used to employ with me, and would probably have employed
 again, had I not settled his affair for him.</p>
 <p>I kept my rage down and answered as steadily as possible, "Listen, you
@@ -1060,14 +1061,14 @@ deficient. He presumed to place me under restraint in his own house in
 hopes of either driving me insane or poisoning me. I have not forgotten
 it. I visited him last night and the interview was final."</p>
 <p>Louis turned quite pale, but did not move. I resumed triumphantly, "There
-are yet three people to be interviewed in the interests of Mr. Wilde and
-myself. They are my cousin Louis, Mr. Hawberk, and his daughter
+are yet three people to be interviewed in the interests of <persName type="char">Mr. Wilde</persName> and
+myself. They are my cousin <persName type="char">Louis</persName>, Mr. <persName type="char">Hawberk</persName>, and his daughter
 Constance."</p>
 <p>Louis sprang to his feet and I arose also, and flung the paper marked
 with the Yellow Sign to the ground.</p>
 <p>"Oh, I don't need that to tell you what I have to say," I cried, with a
 laugh of triumph. "You must renounce the crown to me, do you hear, to
-_me_."</p>
+<hi rend="italic">me</hi>."</p>
 <p>Louis looked at me with a startled air, but recovering himself said
 kindly, "Of course I renounce the--what is it I must renounce?"</p>
 <p>"The crown," I said angrily.</p>
@@ -1091,16 +1092,16 @@ of a king, but I shall be King!"</p>
 Fourth Street, entered the gate of the Lethal Temple, traversed the path
 to the bronze doors at full speed, and plunged into the death chamber
 with the cry of one demented, and I laughed until I wept tears, for I had
-recognized Vance, and knew that Hawberk and his daughter were no longer
+recognized Vance, and knew that <persName type="char">Hawberk</persName> and his daughter were no longer
 in my way.</p>
-<p>"Go," I cried to Louis, "you have ceased to be a menace. You will never
-marry Constance now, and if you marry any one else in your exile, I will
-visit you as I did my doctor last night. Mr. Wilde takes charge of you
+<p>"Go," I cried to <persName type="char">Louis</persName>, "you have ceased to be a menace. You will never
+marry <persName type="char">Constance</persName> now, and if you marry any one else in your exile, I will
+visit you as I did my doctor last night. <persName type="char">Mr. Wilde</persName> takes charge of you
 to-morrow." Then I turned and darted into South Fifth Avenue, and with a
-cry of terror Louis dropped his belt and sabre and followed me like the
+cry of terror <persName type="char">Louis</persName> dropped his belt and sabre and followed me like the
 wind. I heard him close behind me at the corner of Bleecker Street, and I
-dashed into the doorway under Hawberk's sign. He cried, "Halt, or I
-fire!" but when he saw that I flew up the stairs leaving Hawberk's shop
+dashed into the doorway under <persName type="char">Hawberk</persName>'s sign. He cried, "Halt, or I
+fire!" but when he saw that I flew up the stairs leaving <persName type="char">Hawberk</persName>'s shop
 below, he left me, and I heard him hammering and shouting at their door
 as though it were possible to arouse the dead.</p>
 <p>Mr. Wilde's door was open, and I entered crying, "It is done, it is done!
@@ -1119,20 +1120,20 @@ demon, and the tallow dip went out, but my long knife flew swifter than
 she, and I heard her screech, and I knew that my knife had found her. For
 a moment I listened to her tumbling and thumping about in the darkness,
 and then when her frenzy ceased, I lighted a lamp and raised it over my
-head. Mr. Wilde lay on the floor with his throat torn open. At first I
+head. <persName type="char">Mr. Wilde</persName> lay on the floor with his throat torn open. At first I
 thought he was dead, but as I looked, a green sparkle came into his
 sunken eyes, his mutilated hand trembled, and then a spasm stretched his
 mouth from ear to ear. For a moment my terror and despair gave place to
 hope, but as I bent over him his eyeballs rolled clean around in his
 head, and he died. Then while I stood, transfixed with rage and despair,
 seeing my crown, my empire, every hope and every ambition, my very life,
-lying prostrate there with the dead master, _they_ came, seized me
+lying prostrate there with the dead master, <hi rend="italic">they</hi>came, seized me
 from behind, and bound me until my veins stood out like cords, and my
 voice failed with the paroxysms of my frenzied screams. But I still
 raged, bleeding and infuriated among them, and more than one policeman
 felt my sharp teeth. Then when I could no longer move they came nearer; I
-saw old Hawberk, and behind him my cousin Louis' ghastly face, and
-farther away, in the corner, a woman, Constance, weeping softly.</p>
+saw old <persName type="char">Hawberk</persName>, and behind him my cousin <persName type="char">Louis</persName>' ghastly face, and
+farther away, in the corner, a woman, <persName type="char">Constance</persName>, weeping softly.</p>
 <p>"Ah! I see it now!" I shrieked. "You have seized the throne and the
 empire. Woe! woe to you who are crowned with the crown of the King in
 Yellow!"</p>
