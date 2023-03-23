@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
+
 <?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -47,11 +47,11 @@
                   forms of which poetry and legend alone have caught a flying memory and called them
                   gods, monsters, mythical beings of all sorts and kinds...."</p>
                <cit>
-                  <bibl><persName type="hist" xml:id="Blackwood_Alg">Algernon Blackwood</persName></bibl>
+                  <bibl><persName type="hist" ref="Blackwood_Alg">Algernon Blackwood</persName></bibl>
                </cit>
             </epigraph>
-            <note type="canonical" n="1">Found among the papers of the late <persName type="char" ref="HPL_Cthu_Thurston">Francis Wayland
-               Thurston</persName>, of <placeName type="city">Boston</placeName>.</note>
+            <note type="canonical" n="1">Found among the papers of the late <persName ref="HPL_Cthu_Thurston">Francis Wayland
+               Thurston</persName>, of <placeName type="city" ref="Boston_MA">Boston</placeName>.</note>
          </titlePage>
       </front>
       <body>
@@ -78,27 +78,27 @@
                his notes had not sudden death seized him.</p>
             <p>My knowledge of the thing began in the winter of 1926-27 with the death of my
                grand-uncle, <persName type="char" ref="HPL_Cthu_Angell">George Gammell Angell</persName>, Professor
-               Emeritus of Semitic languages in <placeName type="institution">Brown
+               Emeritus of Semitic languages in <placeName type="institution" ref="Brown_Uni">Brown
                   University</placeName>, <placeName type="city">Providence</placeName>, <placeName
-                     type="state">Rhode Island</placeName>. <persName type="char" ref="HPL_Cthu_Angell">Professor
+                     type="state" ref="USA_RI">Rhode Island</placeName>. <persName type="char" ref="HPL_Cthu_Angell">Professor
                   Angell</persName> was widely known as an authority on ancient inscriptions, and
                had frequently been resorted to by the heads of prominent museums; so that his
                passing at the age of ninety-two may be recalled by many. Locally, interest was
                intensified by the obscurity of the cause of death. The professor had been stricken
-               whilst returning from the <placeName type="city">Newport</placeName> boat; falling
+               whilst returning from the <placeName type="city" ref="Newport_RI">Newport</placeName> boat; falling
                suddenly, as witnesses said, after having been jostled by a nautical-looking negro
                who had come from one of the queer dark courts on the precipitous hillside which
                formed a short cut from the waterfront to the deceased's home in <placeName
-                  type="street">Williams Street</placeName>. Physicians were unable to find any
+                  type="street" ref="Str_Williams_Newport">Williams Street</placeName>. Physicians were unable to find any
                visible disorder, but concluded after perplexed debate that some obscure lesion of
                the heart, induced by the brisk ascent of so steep a hill by so elderly a man, was
                responsible for the end. At the time I saw no reason to dissent from this dictum, but
                latterly I am inclined to wonder--and more than wonder.</p>
             <p>As my granduncle's heir and executor, for he died a childless widower, I was expected
                to go over his papers with some thoroughness; and for that purpose moved his entire
-               set of files and boxes to my quarters in <placeName type="city">Boston</placeName>.
+               set of files and boxes to my quarters in <placeName type="city" ref="Boston_MA">Boston</placeName>.
                Much of the material which I correlated will be later published by the
-                  <orgName>American Archeological Society</orgName>, but there was one box which I
+               <orgName ref="American Archeological Society">American Archeological Society</orgName>, but there was one box which I
                found exceedingly puzzling, and which I felt much averse from showing to other eyes.
                It had been locked, and I did not find the key till it occurred to me to examine the
                personal ring which the professor carried always in his pocket. Then, indeed, I
@@ -128,14 +128,14 @@
                background.</p>
             <p>The writing accompanying this oddity was, aside from a stack of press cuttings, in
                <persName type="char" ref="HPL_Cthu_Angell">Professor Angell</persName>'s most recent hand; and made no
-               pretense to literary style. What seemed to be the main document was headed "<hi
-                  rend="italic">CTHULHU CULT</hi>" in characters painstakingly printed to avoid the
+               pretense to literary style. What seemed to be the main document was headed "<orgName ref="Cthu_Cult"><hi
+                  rend="italic">CTHULHU CULT</hi></orgName>" in characters painstakingly printed to avoid the
                erroneous reading of a word so unheard-of. This manuscript was divided into two
                sections, the first of which was headed "1925--Dream and Dream Work of <persName
-                  type="char">H. A. Wilcox</persName>, <placeName type="street">7 Thomas
-                  St.</placeName>, <placeName type="city">Providence</placeName>, <placeName
-                  type="state">R. I.</placeName>," and the second, "Narrative of <persName
-                  type="char">Inspector John R. Legrasse</persName>, <placeName type="street">121
+                  type="char" ref="HPL_Cthu_Wilcox">H. A. Wilcox</persName>, <placeName type="building" ref="HPL_Cthu_Fleu">7 Thomas
+                     St.</placeName>, <placeName type="city" ref="Providence_RI">Providence</placeName>, <placeName
+                        type="state" ref="USA_RI">R. I.</placeName>," and the second, "Narrative of <persName
+                  type="char">Inspector John R. Legrasse</persName>, <placeName type="building">121
                   Bienville St.</placeName>, <placeName type="city">New Orleans</placeName>,
                   <placeName type="state">La.</placeName>, at 1908 <orgName>A. A. S.</orgName>
                Mtg--Notes on Same, &amp;<persName type="char">Prof. Webb</persName>'s Acct." The

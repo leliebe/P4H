@@ -1,0 +1,132 @@
+body {
+	background-color: #D5C6E0;
+}
+
+
+ul.nav {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+	background-color: #28112B;
+}
+
+li.nav {
+	float: right;
+}
+
+li.nav a {
+	font-family: "Garamond", serif;
+	font-size: 1.2em;
+	display: inline-block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+li.nav a:hover {
+	background-color: #007a00;
+}
+
+h1 {
+	text-align:center;
+	font-family: "Garamond", serif;
+	color: #28112B;
+	font-size: 2em;
+}
+
+h2 {
+	margin-left: 5%;
+	margin-right: 10%;
+	font-family: "Garamond", serif;
+	font-size: 1.7em;
+}
+
+h2.author {
+	margin: auto;
+	text-align:center;
+	font-family: "Garamond", serif;
+	font-size: 1.7em;
+}
+
+h2.centered {
+	text-align:center;
+	font-family: "Garamond", serif;
+	font-size: 1.7em;
+}
+
+h3 {
+	margin-left: 5%;
+	margin-right: 10%;
+	font-family: "Garamond", serif;
+	font-size: 1.5em;
+	color: #271033;
+}
+
+h3.chapter_title {
+	text-align: center;
+	font-family: "Garamond", serif;
+	font-size: 1.5em;
+	color: #271033;
+}
+
+h4 {
+	margin-left: 7%;
+	margin-right: 10%;
+	font-family: "Garamond", serif;
+	font-size: 1.3em;
+	color: #007A00;
+}
+
+h4.article_title{
+	text-align: center;
+	font-family: "Garamond", serif;
+	font-size: 1.3em;
+	color: #007A00;
+}
+
+p {
+	margin-left: 15%;
+	margin-right: 18%;
+	font-family: "Garamond", serif;
+	font-size: 1.2em;
+}
+
+p.article_p {
+	margin-left: 25%;
+	margin-right: 27%;
+	font-family: Gill Sans, sans-serif;
+	font-size: 1.2em;
+}
+
+blockquote.epi_quote{
+	text-align:center;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+}
+
+cite.epi_cite{
+	font-family: "Garamond", serif;
+	font-size: .8em;
+	margin-left: 75%;
+}
+
+p.note_canon{
+	text-align: center;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+	font-style: italic;
+}
+
+div.title_page{
+	align-content: center;
+	border-style: solid;
+	margin-left: 20%;
+	margin-right: 20%;
+	border-color: #007A00;
+}
+
+div.lg{
+	text-align: center;
+}

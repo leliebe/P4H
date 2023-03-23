@@ -2,8 +2,9 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/WeirdCorpus.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+<?xml-model href="ClassSch.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -99,7 +100,7 @@
                   <placeName>Fleur-de-Lys Building</placeName>
                   <location>
                      <address>
-                        <addrLine>Thomas Street</addrLine>
+                        <addrLine>7 Thomas Street</addrLine>
                      </address>
                   </location>
                   <country>United States</country>
@@ -113,14 +114,43 @@
                </place>
             </listPlace>
             <listPlace type="city">
-               <place>
-                  <placeName/>
-                  <location/>
-                  <country/>
-                  <region/>
-                  <settlement/>
+               <place xml:id="Boston_MA">
+                  <placeName>Boston</placeName>
+                  <location>Boston, Massachusetts</location>
+                  <country>United States</country>
+                  <region>New England</region>
+                  <settlement>Boston</settlement>
                   <listBibl>
-                     <bibl/>
+                     <bibl>
+                        <author>Lovecraft</author>, 
+                        <title>Call of Cthulhu</title>
+                     </bibl>
+                  </listBibl>
+               </place>
+               <place xml:id="Newport_RI">
+                  <placeName>Newport</placeName>
+                  <location>Newport, Rhode Island</location>
+                  <country>United States</country>
+                  <region>New England</region>
+                  <settlement>Newport</settlement>
+                  <listBibl>
+                     <bibl>
+                        <author>Lovecraft</author>, 
+                        <title>Call of Cthulhu</title>
+                     </bibl>
+                  </listBibl>
+               </place>
+               <place xml:id="Providence_RI">
+                  <placeName>Providence</placeName>
+                  <location>Providence, Rhode Island</location>
+                  <country>United States</country>
+                  <region>New England</region>
+                  <settlement>Providence</settlement>
+                  <listBibl>
+                     <bibl>
+                        <author>Lovecraft</author>, 
+                        <title>Call of Cthulhu</title>
+                     </bibl>
                   </listBibl>
                </place>
             </listPlace>
@@ -173,14 +203,17 @@
                </place>
             </listPlace>
             <listPlace type="institution">
-               <place>
-                  <placeName/>
-                  <location/>
-                  <country/>
-                  <region/>
-                  <settlement/>
+               <place xml:id="Brown_Uni">
+                  <placeName>Brown University</placeName>
+                  <location>Providence, Rhode Island</location>
+                  <country>United States</country>
+                  <region>New England</region>
+                  <settlement>Providence</settlement>
                   <listBibl>
-                     <bibl/>
+                     <bibl>
+                        <author>Lovecraft</author>, 
+                        <title>Call of Cthulhu</title>
+                     </bibl>
                   </listBibl>
                </place>
             </listPlace>
@@ -222,30 +255,58 @@
             </listPlace>
             <listPlace type="state">
                <desc>Used for the names of states and territories.</desc>
-               <place>
-                  <placeName/>
-                  <location/>
-                  <country/>
-                  <region/>
+               <place xml:id="USA_RI">
+                  <placeName>Rhode Island</placeName>
+                  <location>Rhode Island</location>
+                  <country>United States</country>
+                  <region>New England</region>
                   <settlement/>
                   <listBibl>
-                     <bibl/>
+                     <bibl>
+                        <author>Lovecraft</author>, 
+                        <title>Call of Cthulhu</title>
+                     </bibl>
                   </listBibl>
                </place>
             </listPlace>
             <listPlace type="street">
-               <place>
-                  <placeName/>
-                  <location/>
-                  <country/>
-                  <region/>
-                  <settlement/>
+               <place xml:id="Str_Williams_Newport">
+                  <placeName>Williams Street</placeName>
+                  <location>Newport, Rhode Island</location>
+                  <country>United States</country>
+                  <region>New England</region>
+                  <settlement>Newport</settlement>
                   <listBibl>
-                     <bibl/>
+                     <bibl>
+                        <author>Lovecraft</author>, 
+                        <title>Call of Cthulhu</title>
+                     </bibl>
                   </listBibl>
                </place>
             </listPlace>
          </listPlace>
+         <listOrg>
+            <org xml:id="Amer_Arch_Soc">
+               <orgName>American Archeological Society</orgName>
+               <desc></desc>
+               <listBibl>
+                  <bibl>
+                     <author>Lovecraft</author>, 
+                     <title>Call of Cthulhu</title>
+                  </bibl>
+               </listBibl>
+            </org>
+            <org xml:id="Cthu_Cult">
+               <orgName>Cthulhu Cult</orgName>
+               <desc></desc>
+               <listBibl>
+                  <bibl>
+                     <author>Lovecraft</author>, 
+                     <title>Call of Cthulhu</title>
+                  </bibl>
+               </listBibl>
+            </org>
+         </listOrg>
       </body>
    </text>
 </TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>WeirdODD</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="WeirdCorpusODD" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" exclude="div1 div2 div3 div4 div5 div6 div7"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="figures" include="figure"/>
+        <elementSpec module="namesdates" ident="persName" mode="change">
+          <content>
+            <alternate>
+              <sequence preserveOrder="false">
+                <elementRef key="forename" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="surname" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+              <textNode/>
+            </alternate>
+          </content>
+          <constraintSpec ident="persNameType_Standoff" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:body/tei:listPerson//tei:persName">
+                <sch:report test="@type">Type for &lt;persName&gt; is determined in &lt;listPerson&gt;. The @type attribute should not be included here.</sch:report>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="persNameType_Text" scheme="schematron">
+            <constraint>
+              <sch:rule context="//tei:text//tei:body//tei:p//tei:persName | //tei:text//tei:body//tei:l//tei:persName">
+              <sch:let name="persNameVal" value="'char', 'hist'"/>
+              <sch:assert test="@type=$persNameVal">Incorrect @type value for &lt;persName&gt;. Must be "char" (for fictional characters) or "hist" (for historical figures).</sch:assert>
+            </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <!--<attList>
+            <attDef ident="type" mode="change" usage="req">
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+              <valList type="closed" mode="replace">
+                <valItem ident="char">
+                  <gloss>Character</gloss>
+                  <desc>A fictional character within the text.</desc>
+                </valItem>
+                <valItem ident="hist">
+                  <gloss>Historical</gloss>
+                  <desc>A nonfictional person referenced within the text, but not a character within
+                    the text.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>-->
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
