@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+
+
+<?xml-model href="ClassSch.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Weird Standoff</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Lauren Liebe, Center of Digital Humanities Research, Texas A&amp;M
+               University</publisher>
+            <availability>
+               <p>This is an open access work licensed under a Creative Commons Attribution 4.0
+                  International license.</p>
+            </availability>
+         </publicationStmt>
+         <notesStmt>
+            <note>Part of a learning corpus for XML-based projects</note>
+         </notesStmt>
+         <sourceDesc>
+            <p>Born digital.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listOrg>
+            <org xml:id="Amer_Arch_Soc">
+               <orgName>American Archeological Society</orgName>
+               <desc></desc>
+               <listBibl>
+                  <bibl>
+                     <author>Lovecraft</author>, 
+                     <title>Call of Cthulhu</title>
+                  </bibl>
+               </listBibl>
+            </org>
+            <org xml:id="Cthu_Cult">
+               <orgName>Cthulhu Cult</orgName>
+               <desc></desc>
+               <listBibl>
+                  <bibl>
+                     <author>Lovecraft</author>, 
+                     <title>Call of Cthulhu</title>
+                  </bibl>
+               </listBibl>
+            </org>
+         </listOrg>
+      </body>
+   </text>
+</TEI>
