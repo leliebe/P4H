@@ -59,7 +59,7 @@
             <xsl:apply-templates/>
         </h2>
     </xsl:template>
-    <xsl:template match="front/titlePage/epigraph">
+    <xsl:template match="//epigraph">
         <blockquote class="epi_quote">
             <p>
             <xsl:apply-templates select="//epigraph/p"/>
@@ -69,7 +69,7 @@
             <xsl:apply-templates select="//epigraph/cit"/>
         </cite>
     </xsl:template>
-    <xsl:template match="front/titlePage/note">
+    <xsl:template match="front/titlePage/note[@type='canon']">
         <p class="note_canon">
             <xsl:apply-templates/>
         </p>
@@ -147,7 +147,7 @@
         <span class="persName">
             <xsl:choose>
                 <xsl:when test="@xml:id">
-                    <a name="{@xml:id}"/>
+                    <a href="@xml:id"/>
                     <xsl:apply-templates/>
                 </xsl:when>
                 <xsl:when test="@ref">
@@ -233,6 +233,17 @@
     <xsl:template match="back">
         <div class="back">
             <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+<!--Standoff-->
+    <xsl:template match="//text/body/listPerson/person/persName">
+        <div class="person">
+            <h2 class="persName">
+                <xsl:value-of select="forename"/> 
+                <xsl:text> </xsl:text>
+                <xsl:value-of select="surname"/>
+            </h2>
         </div>
     </xsl:template>
     

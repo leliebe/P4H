@@ -109,7 +109,7 @@
           <constraintSpec ident="placeNameType_Text" scheme="schematron">
             <constraint>
               <sch:rule context="//tei:text//tei:body//tei:p//tei:placeName | //tei:text//tei:body//tei:l//tei:placeName">
-                <sch:let name="placeNameVal" value="'building', 'city', 'continent', 'country', 'district', 'fictional', 'institution', 'landmark', 'mythic', 'region', 'state', 'street'"/>
+                <sch:let name="placeNameVal" value="'building', 'celestial', 'city', 'continent', 'country', 'district', 'fictional', 'institution', 'landmark', 'mythic', 'region', 'state', 'street'"/>
                 <sch:assert test="@type = $placeNameVal">
                   Incorrect @type value for &lt;placeName&gt;. Must be one of the following values: building, city, continent, country, district, fictional, institution, landmark, mythic, region, state, or street. 
                 </sch:assert>
