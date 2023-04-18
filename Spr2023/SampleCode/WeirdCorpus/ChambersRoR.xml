@@ -255,7 +255,7 @@
                <placeName type="institution">Metropolitan Museum</placeName> of which he had been appointed armourer, he also
                had charge of several collections belonging to rich amateurs. This was the
                missing greave of a famous suit which a client of his had traced to a
-               little shop in <placeName type="city">Paris</placeName> on the <placeName type="landmark">Quai d'Orsay</placeName>. He, <persName type="char">Hawberk</persName>, had negotiated for
+               little shop in <placeName type="city">Paris</placeName> on the <placeName type="geography">Quai d'Orsay</placeName>. He, <persName type="char">Hawberk</persName>, had negotiated for
                and secured the greave, and now the suit was complete. He laid down his
                hammer and read me the history of the suit, traced since <date when="1450">1450</date> from owner
                to owner until it was acquired by <persName type="char">Thomas Stainbridge</persName>. When his superb
@@ -519,22 +519,22 @@ by his royal servant.</p>
             <!--resume pers/place ids here-->
 <p>I held it in my arms until the alarm in the safe rang harshly, and then
 tenderly, proudly, I replaced it and shut the steel doors. I walked
-slowly back into my study, which faces Washington Square, and leaned on
+slowly back into my study, which faces <placeName type="landmark">Washington Square</placeName>, and leaned on
 the window sill. The afternoon sun poured into my windows, and a gentle
 breeze stirred the branches of the elms and maples in the park, now
 covered with buds and tender foliage. A flock of pigeons circled about
-the tower of the Memorial Church; sometimes alighting on the purple tiled
+the tower of the <placeName type="building">Memorial Church</placeName>; sometimes alighting on the purple tiled
 roof, sometimes wheeling downward to the lotos fountain in front of the
 marble arch. The gardeners were busy with the flower beds around the
 fountain, and the freshly turned earth smelled sweet and spicy. A lawn
 mower, drawn by a fat white horse, clinked across the green sward, and
 watering-carts poured showers of spray over the asphalt drives. Around
-the statue of Peter Stuyvesant, which in 1897 had replaced the
-monstrosity supposed to represent Garibaldi, children played in the
+the statue of <persName type="hist">Peter Stuyvesant</persName>, which in 1897 had replaced the
+monstrosity supposed to represent <persName type="hist">Garibaldi</persName>, children played in the
 spring sunshine, and nurse girls wheeled elaborate baby carriages with a
 reckless disregard for the pasty-faced occupants, which could probably be
 explained by the presence of half a dozen trim dragoon troopers languidly
-lolling on the benches. Through the trees, the Washington Memorial Arch
+lolling on the benches. Through the trees, the <placeName type="landmark">Washington Memorial Arch</placeName>
 glistened like silver in the sunshine, and beyond, on the eastern
 extremity of the square the grey stone barracks of the dragoons, and the
 white granite artillery stables were alive with colour and motion.</p>
@@ -559,13 +559,13 @@ slouched away, and the frightened pigeon returned to its perch in the
 arms of Fate.</p>
 <p>I put on my hat and went out into the park for a little walk before
 dinner. As I crossed the central driveway a group of officers passed, and
-one of them called out, "Hello, Hildred," and came back to shake hands
+one of them called out, "Hello, <persName type="char">Hildred</persName>," and came back to shake hands
 with me. It was my cousin <persName type="char">Louis</persName>, who stood smiling and tapping his
 spurred heels with his riding-whip.</p>
-<p>"Just back from Westchester," he said; "been doing the bucolic; milk and
+<p>"Just back from <placeName type="city">Westchester</placeName>," he said; "been doing the bucolic; milk and
 curds, you know, dairy-maids in sunbonnets, who say 'haeow' and 'I don't
 think' when you tell them they are pretty. I'm nearly dead for a square
-meal at Delmonico's. What's the news?"</p>
+meal at <placeName type="landmark">Delmonico</placeName>'s. What's the news?"</p>
 <p>"There is none," I replied pleasantly. "I saw your regiment coming in this
 morning."</p>
 <p>"Did you? I didn't see you. Where were you?"</p>
@@ -575,11 +575,11 @@ understand why you--"</p>
 <p>He saw how annoyed I felt by this outburst, and begged my pardon.</p>
 <p>"Really, old chap," he said, "I don't mean to run down a man you like,
 but for the life of me I can't see what the deuce you find in common with
-Mr. Wilde. He's not well bred, to put it generously; he is hideously
+<persName type="char">Mr. Wilde</persName>. He's not well bred, to put it generously; he is hideously
 deformed; his head is the head of a criminally insane person. You know
 yourself he's been in an asylum--"</p>
 <p>"So have I," I interrupted calmly.</p>
-<p>Louis looked startled and confused for a moment, but recovered and
+<p><persName type="char">Louis</persName> looked startled and confused for a moment, but recovered and
 slapped me heartily on the shoulder. "You were completely cured," he
 began; but I stopped him again.</p>
 <p>"I suppose you mean that I was simply acknowledged never to have been
@@ -587,7 +587,7 @@ insane."</p>
 <p>"Of course that--that's what I meant," he laughed.</p>
 <p>I disliked his laugh because I knew it was forced, but I nodded gaily and
 asked him where he was going. <persName type="char">Louis</persName> looked after his brother officers who
-had now almost reached Broadway.</p>
+had now almost reached <placeName type="street">Broadway</placeName>.</p>
 <p>"We had intended to sample a Brunswick cocktail, but to tell you the
 truth I was anxious for an excuse to go and see <persName type="char">Hawberk</persName> instead. Come
 along, I'll make you my excuse."</p>
@@ -595,7 +595,7 @@ along, I'll make you my excuse."</p>
 the door of his shop and sniffing the air.</p>
 <p>"I had just decided to take <persName type="char">Constance</persName> for a little stroll before dinner,"
 he replied to the impetuous volley of questions from <persName type="char">Louis</persName>. "We thought
-of walking on the park terrace along the North River."</p>
+of walking on the park terrace along the <placeName type="geography">North River</placeName>."</p>
 <p>At that moment <persName type="char">Constance</persName> appeared and grew pale and rosy by turns as
 Louis bent over her small gloved fingers. I tried to excuse myself,
 alleging an engagement uptown, but <persName type="char">Louis</persName> and <persName type="char">Constance</persName> would not listen,
@@ -604,11 +604,11 @@ After all it would be just as well if I kept my eye on <persName type="char">Lou
 and when they hailed a Spring Street horse-car, I got in after them and
 took my seat beside the armourer.</p>
 <p>The beautiful line of parks and granite terraces overlooking the wharves
-along the North River, which were built in 1910 and finished in the
+along the <placeName type="geography">North River</placeName>, which were built in 1910 and finished in the
 autumn of 1917, had become one of the most popular promenades in the
-metropolis. They extended from the battery to 190th Street, overlooking
-the noble river and affording a fine view of the Jersey shore and the
-Highlands opposite. Cafés and restaurants were scattered here and there
+metropolis. They extended from the battery to <placeName type="street">190th Street</placeName>, overlooking
+the noble river and affording a fine view of the <placeName type="geography">Jersey shore</placeName> and the
+<placeName type="geography">Highlands</placeName> opposite. Cafés and restaurants were scattered here and there
 among the trees, and twice a week military bands from the garrison played
 in the kiosques on the parapets.</p>
 <p>We sat down in the sunshine on the bench at the foot of the equestrian
@@ -616,7 +616,7 @@ statue of General Sheridan. <persName type="char">Constance</persName> tipped he
 eyes, and she and <persName type="char">Louis</persName> began a murmuring conversation which was
 impossible to catch. Old <persName type="char">Hawberk</persName>, leaning on his ivory headed cane,
 lighted an excellent cigar, the mate to which I politely refused, and
-smiled at vacancy. The sun hung low above the Staten Island woods, and
+smiled at vacancy. The sun hung low above the <placeName type="city">Staten Island</placeName> woods, and
 the bay was dyed with golden hues reflected from the sun-warmed sails of
 the shipping in the harbour.</p>
 <p>Brigs, schooners, yachts, clumsy ferry-boats, their decks swarming with
@@ -627,11 +627,11 @@ tugs puffing and whistling officiously;--these were the craft which
 churned the sunlight waters as far as the eye could reach. In calm
 contrast to the hurry of sailing vessel and steamer a silent fleet of
 white warships lay motionless in midstream.</p>
-<p>Constance's merry laugh aroused me from my reverie.</p>
+<p><persName type="char">Constance</persName>'s merry laugh aroused me from my reverie.</p>
 <p>"What <hi rend="italic">are</hi>you staring at?" she inquired.</p>
 <p>"Nothing--the fleet," I smiled.</p>
 <p>Then <persName type="char">Louis</persName> told us what the vessels were, pointing out each by its
-relative position to the old Red Fort on Governor's Island.</p>
+relative position to the old <placeName type="building">Red Fort</placeName> on <placeName type="geography">Governor's Island</placeName>.</p>
 <p>"That little cigar shaped thing is a torpedo boat," he explained; "there
 are four more lying close together. They are the <hi rend="italic">Tarpon</hi>, the <hi rend="italic">Falcon</hi>,
 the <hi rend="italic">Sea Fox</hi>, and the <hi rend="italic">Octopus</hi>. The gun-boats just above are the
@@ -639,20 +639,20 @@ the <hi rend="italic">Sea Fox</hi>, and the <hi rend="italic">Octopus</hi>. The 
 them lie the cruisers <hi rend="italic">Faragut</hi>and <hi rend="italic">Los Angeles</hi>, and above them the
 battle ships <hi rend="italic">California</hi>, and <hi rend="italic">Dakota</hi>, and the <hi rend="italic">Washington</hi>which is
 the flag ship. Those two squatty looking chunks of metal which are
-anchored there off Castle William are the double turreted monitors
+anchored there off <placeName type="building">Castle William</placeName> are the double turreted monitors
 <hi rend="italic">Terrible</hi>and <hi rend="italic">Magnificent</hi>; behind them lies the ram, <hi rend="italic">Osceola</hi>."</p>
-<p>Constance looked at him with deep approval in her beautiful eyes. "What
+<p><persName type="char">Constance</persName> looked at him with deep approval in her beautiful eyes. "What
 loads of things you know for a soldier," she said, and we all joined in
 the laugh which followed.</p>
 <p>Presently <persName type="char">Louis</persName> rose with a nod to us and offered his arm to <persName type="char">Constance</persName>,
 and they strolled away along the river wall. <persName type="char">Hawberk</persName> watched them for a
 moment and then turned to me.</p>
-<p>"Mr. Wilde was right," he said. "I have found the missing tassets and
+<p>"<persName type="char">Mr. Wilde</persName> was right," he said. "I have found the missing tassets and
 left cuissard of the 'Prince's Emblazoned,' in a vile old junk garret in
-Pell Street."</p>
+<placeName type="street">Pell Street</placeName>."</p>
 <p>"998?" I inquired, with a smile.</p>
 <p>"Yes."</p>
-<p>"Mr. Wilde is a very intelligent man," I observed.</p>
+<p>"<persName type="char">Mr. Wilde</persName> is a very intelligent man," I observed.</p>
 <p>"I want to give him the credit of this most important discovery,"
 continued <persName type="char">Hawberk</persName>. "And I intend it shall be known that he is entitled
 to the fame of it."</p>
@@ -669,7 +669,7 @@ be--richer than any living man except myself. What will we care for money
 then--what will we care, he and I, when--when--"</p>
 <p>"When what?" demanded <persName type="char">Hawberk</persName>, astonished.</p>
 <p>"You will see," I replied, on my guard again.</p>
-<p>He looked at me narrowly, much as Doctor Archer used to, and I knew he
+<p>He looked at me narrowly, much as <persName type="char">Doctor Archer</persName> used to, and I knew he
 thought I was mentally unsound. Perhaps it was fortunate for him that he
 did not use the word lunatic just then.</p>
 <p>"No," I replied to his unspoken thought, "I am not mentally weak; my mind
@@ -680,13 +680,13 @@ of a continent--yes, a hemisphere!"</p>
 <p>"Oh," said <persName type="char">Hawberk</persName>.</p>
 <p>"And eventually," I continued more quietly, "it will secure the happiness
 of the whole world."</p>
-<p>"And incidentally your own happiness and prosperity as well as Mr.
-Wilde's?"</p>
+<p>"And incidentally your own happiness and prosperity as well as <persName type="char">Mr.
+Wilde's?</persName>"</p>
 <p>"Exactly," I smiled. But I could have throttled him for taking that tone.</p>
 <p>He looked at me in silence for a while and then said very gently, "Why
 don't you give up your books and studies, <persName type="char">Mr. Castaigne</persName>, and take a tramp
 among the mountains somewhere or other? You used to be fond of fishing.
-Take a cast or two at the trout in the Rangelys."</p>
+Take a cast or two at the trout in the <placeName type="geography">Rangelys</placeName>."</p>
 <p>"I don't care for fishing any more," I answered, without a shade of
 annoyance in my voice.</p>
 <p>"You used to be fond of everything," he continued; "athletics, yachting,
@@ -696,30 +696,31 @@ shooting, riding--"</p>
 <p>I thought this nonsense had gone far enough, so I brought the
 conversation back to <persName type="char">Mr. Wilde</persName>; but he was scanning my face again in a
 manner highly offensive to me.</p>
-<p>"Mr. Wilde," he repeated, "do you know what he did this afternoon? He
+<p>"<persName type="char">Mr. Wilde</persName>," he repeated, "do you know what he did this afternoon? He
 came downstairs and nailed a sign over the hall door next to mine; it
 read:</p>
-<p>"MR. WILDE,
+<p>"<persName type="char">MR. WILDE</persName>,
 REPAIRER OF REPUTATIONS.
 Third Bell.</p>
 <p>"Do you know what a Repairer of Reputations can be?"</p>
 <p>"I do," I replied, suppressing the rage within.</p>
 <p>"Oh," he said again.</p>
-<p>Louis and <persName type="char">Constance</persName> came strolling by and stopped to ask if we would join
+<p><persName type="char">Louis</persName> and <persName type="char">Constance</persName> came strolling by and stopped to ask if we would join
 them. <persName type="char">Hawberk</persName> looked at his watch. At the same moment a puff of smoke
-shot from the casemates of Castle William, and the boom of the sunset gun
-rolled across the water and was re-echoed from the Highlands opposite.
+shot from the casemates of <placeName type="building">Castle William</placeName>, and the boom of the sunset gun
+rolled across the water and was re-echoed from the <placeName type="geography">Highlands</placeName> opposite.
 The flag came running down from the flag-pole, the bugles sounded on the
 white decks of the warships, and the first electric light sparkled out
-from the Jersey shore.</p>
+from the <placeName type="geography">Jersey shore</placeName>.</p>
 <p>As I turned into the city with <persName type="char">Hawberk</persName> I heard <persName type="char">Constance</persName> murmur something
 to <persName type="char">Louis</persName> which I did not understand; but <persName type="char">Louis</persName> whispered "My darling," in
 reply; and again, walking ahead with <persName type="char">Hawberk</persName> through the square I heard a
 murmur of "sweetheart," and "my own <persName type="char">Constance</persName>," and I knew the time had
 nearly arrived when I should speak of important matters with my cousin
-Louis.</p>
+<persName type="char">Louis</persName>.</p>
          </div>
          <div type="chapter" n="3">
+            <!--resume pers/place tagging-->
             <head>III</head>
             <p>One morning early in May I stood before the steel safe in my bedroom,
 trying on the golden jewelled crown. The diamonds flashed fire as I
